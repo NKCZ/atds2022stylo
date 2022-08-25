@@ -1,7 +1,8 @@
-# Stylometry
+# Corpora
 
-* Plots: <https://nkcz.github.io/content.html>
+* Saga Corpus
 
+* (Subset) of publibly avialable ADL texts
 
 # Workflow
 
@@ -15,3 +16,6 @@
     -   run in your R-Enviroment: `install.packages("stylo")`
     -   <https://cran.r-project.org/web/packages/stylo/index.html>
 
+# Stylometry
+
+* Plots: <https://nkcz.github.io/content.html>
