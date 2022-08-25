@@ -2,7 +2,7 @@
 
 * Saga Corpus
 
-* (Subset) of publibly avialable ADL texts
+* (Subset) of publicly avialable ADL texts
 
 # Workflow
 
