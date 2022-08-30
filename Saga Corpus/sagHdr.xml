@@ -1,0 +1,1923 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mimDoc>
+  <teiHeader type="corpus">
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="is">Textar úr fornsögum</title>
+        <title xml:lang="en">Medieval texts from the sagas and other old Icelandic texts</title>
+        <respStmt>
+          <orgName xml:lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</orgName>
+          <orgName xml:lang="en">The Arni Magnusson Institute for Icelandic Studies</orgName>
+          <orgName xml:lang="is">Söfnun og úrvinnsla texta</orgName>
+          <orgName xml:lang="en">Collection and processing of text</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition xml:lang="is">Lokaútgáfa</edition>
+        <title xml:lang="en">Final version</title>
+      </editionStmt>
+      <publicationStmt>
+        <pubPlace>Reykjavik, Iceland</pubPlace>
+        <address>
+          <addrLine lang="en">Árnagarði við Suðurgötu, 101 Reykjavik, Iceland</addrLine>
+          <addrLine lang="en">Tel.: +354 525 4430</addrLine>
+          <addrLine>
+            <email>arnastofnun@arnastofnun.is</email>
+          </addrLine>
+          <addrLine>
+            <ref n="www" target="http://arnastofnun.is">http://arnastofnun.is</ref>
+          </addrLine>
+        </address>
+        <publisher lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</publisher>
+        <publisher lang="en">The Arni Magnusson Institute for Icelandic Studies</publisher>
+        <distributor lang="is">Stofnun Árna Magnússonar í íslenskum fræðum</distributor>
+        <distributor lang="en">The Arni Magnusson Institute for Icelandic Studies</distributor>
+        <availability lang="is">Þessi málheild er til notkunar í málrannsóknum og máltækniverkefnum um allan heim.<licenceInfo>
+            <licence>CC_BY-SA_3.0</licence>
+            <restrictionsOfUse>shareAlike</restrictionsOfUse>
+          </licenceInfo>
+        </availability>
+        <availability lang="en">This corpus is available for use in language research and language technology projects world wide.<licenceInfo>
+            <licence>CC_BY-SA_3.0</licence>
+            <restrictionsOfUse>shareAlike</restrictionsOfUse>
+          </licenceInfo>
+        </availability>
+        <date when="2018-04-01">2018-04-01</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p lang="is">Í þessari málheild eru textar úr 41 Íslendingasögu (982.066 lesmálsorð fyrir utan greinarmerki), Sturlungu (260.586 lesmálsorð fyrir utan greinarmerki), Heimskringlu (231.502 lesmálsorð fyrir utan greinarmerki) og Landnámabók (37.120 lesmálsorð fyrir utan greinarmerki). Texti Íslendingasagna er úr útgáfu Svarts og hvítu (Bragi Halldórsson, Jón Torfason, Sverrir Tómasson og Örnólfur Thorsson (ritstj.) 1985-1986) og texti Sturlungu einnig (Örnólfur Thorsson, Bergljót Kristjánsdóttir, Bragi Halldórsson, Gísli Sigurðsson, Guðrún Ása Grímsdóttir, Guðrún Ingólfsdóttir, Jón Torfason og Sverrir Tómasson (ritstj.) 1988). Texti Heimskringlu er úr útgáfu frá Máli og menningu árið 1991 (Bergljót Kristjánsdóttir, Bragi Halldórsson, Jón Torfason og Örnólfur Thorsson (ritstj.) 1991). Stafsetning var umrituð til nútímastafsetningar og nokkrar beygingarendingar eru færðar til nútímamáls. Texti Landnámabókar úr útgáfu Jakobs Benediktssonar frá 1968 var ljóslesinn og síðan færður til nútímastafsetningar á sama hátt.</p>
+        <p lang="is">Sjá sourceDesc/biblStruct/monogr í haus hverrar .xml skrár fyrir sig.</p>
+        <p lang="en">See sourceDesc/biblStruct/monogr in the header for each .xml file.</p>
+        
+        <p lang="en">This corpus contains 41 texts from the family sagas (982.066 running words excluding punctuation), Sturlunga Saga (260.586 running words excluding punctuation), Heimskringla (231.50 running words excluding punctuation) and the Book of Settlement (37.120 running words excluding punctuation). The texts of the Family Sagas are taken from the publication of Svart á hvítu (Bragi Halldórsson, Jón Torfason, Sverrir Tómasson and Örnólfur Thorsson (eds.) 1985-1986) and also the text of Sturlunga Saga (Örnólfur Thorsson, Bergljót Kristjánsdóttir, Bragi Halldórsson, Gísli Sigurðsson, Guðrún Ása Grímsdóttir, Guðrún Ingólfsdóttir, Jón Torfason and Sverrir Tómasson (eds.) 1988). The text of Heimskringla is from the publication of Mál og menning from the year 1991 (Bergljót Kristjánsdóttir, Bragi Halldórsson, Jón Torfason and Örnólfur Thorsson (eds.) 1991). The spelling was normalized to Modern Icelandic spelling and some inflectional endings were changed to Modern Icelandic form. The text of the Book of Settlement is from the publication of Jakob Benediktsson from 1968. The book was scanned and the text normalized to Modern Icelandic spelling in the same way as the other texts.</p>
+        <p lang="en">See sourceDesc/biblStruct/monogr in the header of each of the .xml files.</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="is">Icelandic</language>
+        <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p lang="is">Textarnir sem veittur er aðgangur að í apríl 2018 voru markaðir í byrjun árs 2018. Notaður var markarinn Stagger. Búið var til nýtt þjálfunarsafn með því að leggja saman textasafn Orðtíðnibókarinnar (um 500 þúsund orð), þjálfunarsafn með 95.000 orðum úr Sturlungu og nýr staðall, MIM-GULL (um ein milljón orða). Til þess að meta mörkunarnákvæmni voru valin af handahófi fjögur 1000 orða sýni, eitt úr Íslendingasögunum, eitt úr Heimskringlu og tvö úr Sturlungu. Mörk orða í þessum sýnum voru leiðrétt handvirkt.  Mörkunarnákvæmni var metin með því að marka 1000 orða sýnin og bera mörkin saman við þau mörk sem höfðu verið leiðrétt. Niðurstaðan var 93,5% nákvæmni<footnote label="1">http://www.malfong.is/index.php?lang=is&amp;pg=fornritin</footnote>.</p>
+       
+        <p lang="en">The texts that are made available in April 2018 were tagged at the beginning of 2018. The tagger Stagger was used. A new training corpus was made by concatenating the IFD corpus (about 500 thousand running words), a training corpus consisting of 95 thousand running words from Sturlunga and a new training corpus, MIM-GOLD (about a million running words). Tagging accuracy was estimated by selecting randomly three 1000 word samples, one from the family sagas, one from Heimskringla and two from Sturlunga. Tags in these samples were corrected manually. Accuracy was estimated by tagging these samples and comparing the tags to the corrected tags.  Resulting accuracy was estimated 93,5% <footnote label="2">http://www.malfong.is/index.php?lang=en&amp;pg=fornritin</footnote>.</p>
+	   
+	   <p lang="is">Textunum var skipt í setningar og lesmálsorð með því að nota IceNLP <footnote label="3">http://malfong.is/?pg=icenlp</footnote> pakkann. Textarnir voru markaðir með mörkunarforritinu Stagger  og síðan lemmaðir með lemmunarforritinu Nefni <footnote label="4">https://github.com/search?q=nefnir&amp;type=Repositories&amp;utf8=%E2%9C%93</footnote>.</p>
+	   
+		<p lang="en">The texts were tokenized and split into sentences by using the IceNLP <footnote label="5">http://malfong.is/?pg=icenlp</footnote> suite. The texts were tagged with the tagger Stagger and lemmatized with the lemmatizer Nefnir <footnote label="6">https://github.com/search?q=nefnir&amp;type=Repositories&amp;utf8=%E2%9C%93</footnote>.</p>
+
+      </projectDesc>
+      <samplingDecl>
+        <p lang="is">Í þessari málheild eru 49 textar. Textunum er skipt í .xml skrár sem hver um sig hefur heiti sem sett er saman úr þremur stöfum. Í hverju .xml skjali er gerð grein fyrir textanum í skjalinu og allur texti birtur ásamt lemmum (orð í nefnimynd) og greiningarstrengjum.</p>
+        <p lang="is">Málheildin inniheldur 1.511.275 orð og 175.818 greinarmerki í 44 mismunandi textum. Orðin og greinarmerkin voru greind í 538 mismunandi flokka en 54.629 mismunandi orðmyndir eru í málheildinni (orð mynd er hér skilgreind sem einkvæm mynd ákveðins orðs).</p>
+        <p lang="en">This corpus contains 49 texts. The texts are distributed in XML format, each text in one file. The texts have a three letter identification number. Each XML file has information about the texts in addition to the texts with lemmas and morphosyntactic analysis for each word.</p>
+        <p lang="en">The corpus contains 1,511,275 words and 175,818 punctuation marks in 44 different texts. The words and punctuation marks have 538 different analysis and the corpus has 54,629 different word forms (uniqe form of a specific word).</p>
+      </samplingDecl>
+      <p>
+        <list lang="isl" type="Grammatical Analysis">
+          <list type="Nafnorð">
+            <item column="1" type="Orðflokkur">
+              <item type="n">nafnorð</item>
+            </item>
+            <item column="2" type="Kyn">
+              <item type="k">karlkyn</item>
+              <item type="v">kvenkyn</item>
+              <item type="h">hvorugkyn</item>
+              <item type="x">ókyngreint</item>
+            </item>
+            <item column="3" type="Tala">
+              <item type="e">eintala</item>
+              <item type="f">fleirtala</item>
+            </item>
+            <item column="4" type="Fall">
+              <item type="n">nefnifall</item>
+              <item type="o">þolfall</item>
+              <item type="þ">þágufall</item>
+              <item type="e">eignarfall</item>
+            </item>
+            <item column="5" type="Greinir">
+              <item type="g">með viðskeyttum greini</item>
+            </item>
+            <item column="6" type="Sérnöfn">
+              <item type="m">mannsnafn</item>
+              <item type="ö">örnefni</item>
+              <item type="s">önnur sérnöfn</item>
+            </item>
+          </list>
+          <list type="Lýsingarorð">
+            <item column="1" type="Orðflokkur">
+              <item type="l">lýsingarorð</item>
+            </item>
+            <item column="2" type="Kyn">
+              <item type="k">karlkyn</item>
+              <item type="v">kvenkyn</item>
+              <item type="h">hvorugkyn</item>
+            </item>
+            <item column="3" type="Tala">
+              <item type="e">eintala</item>
+              <item type="f">fleirtala</item>
+            </item>
+            <item column="4" type="Fall">
+              <item type="n">nefnifall</item>
+              <item type="o">þolfall</item>
+              <item type="þ">þágufall</item>
+              <item type="e">eignarfall</item>
+            </item>
+            <item column="5" type="Beyging">
+              <item type="s">sterk beyging</item>
+              <item type="v">veik beyging</item>
+              <item type="o">óbeygt</item>
+            </item>
+            <item column="6" type="Stig">
+              <item type="f">frumstig</item>
+              <item type="m">miðstig</item>
+              <item type="e">efstastig</item>
+            </item>
+          </list>
+          <list type="Fornöfn">
+            <item column="1" type="Orðflokkur">
+              <item type="f">fornafn</item>
+            </item>
+            <item column="2" type="Flokkur">
+              <item type="a">ábendingarfornafn</item>
+              <item type="b">óákveðið ábendingarfornafn</item>
+              <item type="e">eignarfornafn</item>
+              <item type="o">óákveðið fornafn</item>
+              <item type="p">persónufornafn</item>
+              <item type="s">spurnarfornafn</item>
+              <item type="t">tilvísunarfornafn</item>
+            </item>
+            <item column="3" type="Kyn/Persóna">
+              <item type="k">karlkyn</item>
+              <item type="v">kvenkyn</item>
+              <item type="h">hvorugkyn</item>
+              <item type="1">1. persóna</item>
+              <item type="2">2. persóna</item>
+            </item>
+            <item column="4" type="Tala">
+              <item type="e">eintala</item>
+              <item type="f">fleirtala</item>
+            </item>
+            <item column="5" type="Fall">
+              <item type="n">nefnifall</item>
+              <item type="o">þolfall</item>
+              <item type="þ">þágufall</item>
+              <item type="e">eignarfall</item>
+            </item>
+          </list>
+          <list type="Greinir">
+            <item column="1" type="Orðflokkur">
+              <item type="g">greinir</item>
+            </item>
+            <item column="2" type="Kyn">
+              <item type="k">karlkyn</item>
+              <item type="v">kvenkyn</item>
+              <item type="h">hvorugkyn</item>
+            </item>
+            <item column="3" type="Tala">
+              <item type="e">eintala</item>
+              <item type="f">fleirtala</item>
+            </item>
+            <item column="4" type="Fall">
+              <item type="n">nefnifall</item>
+              <item type="o">þolfall</item>
+              <item type="þ">þágufall</item>
+              <item type="e">eignarfall</item>
+            </item>
+          </list>
+          <list type="Töluorð">
+            <item column="1" type="Orðflokkur">
+              <item type="t">töluorð</item>
+            </item>
+            <item column="2" type="Flokkur">
+              <item type="f">frumtala</item>
+            </item>
+            <item column="3" type="Kyn">
+              <item type="k">karlkyn</item>
+              <item type="v">kvenkyn</item>
+              <item type="h">hvorugkyn</item>
+              <item type="1">1. persóna</item>
+              <item type="2">2. persóna</item>
+            </item>
+            <item column="4" type="Tala">
+              <item type="e">eintala</item>
+              <item type="f">fleirtala</item>
+            </item>
+            <item column="5" type="Fall">
+              <item type="n">nefnifall</item>
+              <item type="o">þolfall</item>
+              <item type="þ">þágufall</item>
+              <item type="e">eignarfall</item>
+            </item>
+          </list>
+          <list type="Sagnir (þó ekki lýsingarháttur þátíðar)">
+            <item column="1" type="Orðflokkur">
+              <item type="s">sögn (þó ekki lýsingarháttur þátíðar)</item>
+            </item>
+            <item column="2" type="Háttur">
+              <item type="n">nafnháttur</item>
+              <item type="b">boðháttur</item>
+              <item type="f">framsöguháttur</item>
+              <item type="v">viðtengingarháttur</item>
+              <item type="s">sagnbót</item>
+              <item type="l">lýsingarháttur nútíðar</item>
+            </item>
+            <item column="3" type="Mynd">
+              <item type="g">germynd</item>
+              <item type="m">miðmynd</item>
+            </item>
+            <item column="4" type="Persóna">
+              <item type="1">1. persóna</item>
+              <item type="2">2. persóna</item>
+              <item type="3">3. persóna</item>
+            </item>
+            <item column="5" type="Tala">
+              <item type="e">eintala</item>
+              <item type="f">fleirtala</item>
+            </item>
+            <item column="6" type="Tíð">
+              <item type="n">nútíð</item>
+              <item type="þ">þátíð</item>
+            </item>
+          </list>
+          <list type="Sagnir (lýsingarháttur þátíðar)">
+            <item column="1" type="Orðflokkur">
+              <item type="s">sögn (lýsingarháttur þátíðar)</item>
+            </item>
+            <item column="2" type="Háttur">
+              <item type="þ">lýsingarháttur þátíðar</item>
+            </item>
+            <item column="3" type="Mynd">
+              <item type="g">germynd</item>
+              <item type="m">miðmynd</item>
+            </item>
+            <item column="4" type="Kyn">
+              <item type="k">karlkyn</item>
+              <item type="v">kvenkyn</item>
+              <item type="h">hvorugkyn</item>
+            </item>
+            <item column="5" type="Tala">
+              <item type="e">eintala</item>
+              <item type="f">fleirtala</item>
+            </item>
+            <item column="6" type="Fall">
+              <item type="n">nefnifall</item>
+              <item type="o">þolfall</item>
+            </item>
+          </list>
+          <list type="Atviksorð">
+            <item column="1" type="Orðflokkur">
+              <item type="a">atviksorð</item>
+            </item>
+            <item column="2" type="Stig">
+              <item type="m">miðstig</item>
+              <item type="e">efsta stig</item>
+            </item>
+            <item column="3" type="Flokkur/Fallstjórn">
+              <item type="a">stýrir ekki falli</item>
+              <item type="u">upphrópun</item>
+              <item type="o">stýrir þolfalli</item>
+              <item type="þ">stýrir þágufalli</item>
+              <item type="e">stýrir eignarfalli</item>
+            </item>
+          </list>
+          <list type="Samtengingar">
+            <item column="1" type="Orðflokkur">
+              <item type="c">samtenging</item>
+            </item>
+            <item column="2" type="Flokkur">
+              <item type="n">nafnháttarmerki</item>
+              <item type="t">tilvísunartenging</item>
+            </item>
+          </list>
+          <list type="Erlend orð">
+            <item column="1" type="Flokkur">
+              <item type="e">erlent orð</item>
+            </item>
+          </list>
+          <list type="Ógreint orð">
+            <item column="1" type="Flokkur">
+              <item type="x">ógreint orð</item>
+            </item>
+          </list>
+        </list>
+        <list lang="eng" type="Grammatical Analysis">
+          <list type="Nouns">
+            <item column="1" type="Word class">
+              <item type="n">noun</item>
+            </item>
+            <item column="2" type="Gender">
+              <item type="k">masculine</item>
+              <item type="v">feminine</item>
+              <item type="h">neuter</item>
+              <item type="x">gender unspecified</item>
+            </item>
+            <item column="3" type="Number">
+              <item type="e">singular</item>
+              <item type="f">plural</item>
+            </item>
+            <item column="4" type="Case">
+              <item type="n">nominative</item>
+              <item type="o">accusative</item>
+              <item type="þ">dative</item>
+              <item type="e">genitive</item>
+            </item>
+            <item column="5" type="Article">
+              <item type="g">with suffixed definite article</item>
+            </item>
+            <item column="6" type="Proper nouns">
+              <item type="m">name of person</item>
+              <item type="ö">place name</item>
+              <item type="s">other proper noun</item>
+            </item>
+          </list>
+          <list type="Adjectives">
+            <item column="1" type="Word class">
+              <item type="l">adjective</item>
+            </item>
+            <item column="2" type="Degree">
+              <item type="f">positive</item>
+              <item type="m">comparative</item>
+              <item type="e">superlative</item>
+            </item>
+            <item column="3" type="Declension">
+              <item type="s">strong</item>
+              <item type="v">weak</item>
+              <item type="o">indeclinable</item>
+            </item>
+            <item column="4" type="Gender">
+              <item type="k">masculine</item>
+              <item type="v">feminine</item>
+              <item type="h">neuter</item>
+            </item>
+            <item column="5" type="Number">
+              <item type="e">singular</item>
+              <item type="f">plural</item>
+            </item>
+            <item column="6" type="Case">
+              <item type="n">nominative</item>
+              <item type="o">accusative</item>
+              <item type="þ">dative</item>
+              <item type="e">genitive</item>
+            </item>
+          </list>
+          <list type="Pronouns">
+            <item column="1" type="Word class">
+              <item type="f">pronoun</item>
+            </item>
+            <item column="2" type="Subcategory">
+              <item type="a">demonstrative pronoun</item>
+              <item type="b">indefinite demonstrative pronoun</item>
+              <item type="e">possessive pronoun</item>
+              <item type="o">indefinite pronoun</item>
+              <item type="p">personal pronoun</item>
+              <item type="s">interrogative pronoun</item>
+              <item type="t">relative pronoun</item>
+            </item>
+            <item column="3" type="Gender/Person">
+              <item type="k">masculine</item>
+              <item type="v">feminine</item>
+              <item type="h">neuter</item>
+              <item type="1">1st person</item>
+              <item type="2">2nd person</item>
+            </item>
+            <item column="4" type="Number">
+              <item type="e">singular</item>
+              <item type="f">plural</item>
+            </item>
+            <item column="5" type="Case">
+              <item type="n">nominative</item>
+              <item type="o">accusative</item>
+              <item type="þ">dative</item>
+              <item type="e">genitive</item>
+            </item>
+          </list>
+          <list type="Independent article">
+            <item column="1" type="Word class">
+              <item type="g">article</item>
+            </item>
+            <item column="2" type="Gender">
+              <item type="k">masculine</item>
+              <item type="v">feminine</item>
+              <item type="h">neuter</item>
+            </item>
+            <item column="3" type="Number">
+              <item type="e">singular</item>
+              <item type="f">plural</item>
+            </item>
+            <item column="4" type="Case">
+              <item type="n">nominative</item>
+              <item type="o">accusative</item>
+              <item type="þ">dative</item>
+              <item type="e">genitive</item>
+            </item>
+          </list>
+          <list type="Numerals">
+            <item column="1" type="Word class">
+              <item type="t">numeral</item>
+            </item>
+            <item column="2" type="Category">
+              <item type="f">cardinal</item>
+            </item>
+            <item column="3" type="Gender">
+              <item type="k">masculine</item>
+              <item type="v">feminine</item>
+              <item type="h">neuter</item>
+              <item type="1">1st person</item>
+              <item type="2">2nd person</item>
+            </item>
+            <item column="4" type="Number">
+              <item type="e">singular</item>
+              <item type="f">plural</item>
+            </item>
+            <item column="5" type="Case">
+              <item type="n">nominative</item>
+              <item type="o">accusative</item>
+              <item type="þ">dative</item>
+              <item type="e">genitive</item>
+            </item>
+          </list>
+          <list type="Verbs (except for past participles)">
+            <item column="1" type="Word class">
+              <item type="s">verb (except for past participles</item>
+            </item>
+            <item column="2" type="Mood">
+              <item type="n">infinitive</item>
+              <item type="b">imperative</item>
+              <item type="f">indicative</item>
+              <item type="v">subjunctive</item>
+              <item type="s">supine</item>
+              <item type="l">present participle</item>
+            </item>
+            <item column="3" type="Voice">
+              <item type="g">active</item>
+              <item type="m">middle</item>
+            </item>
+            <item column="4" type="Person">
+              <item type="1">1st person</item>
+              <item type="2">2nd person</item>
+              <item type="3">3rd person</item>
+            </item>
+            <item column="5" type="Number">
+              <item type="e">singular</item>
+              <item type="f">plural</item>
+            </item>
+            <item column="6" type="Tense">
+              <item type="n">present</item>
+              <item type="þ">past</item>
+            </item>
+          </list>
+          <list type="Verbs (past participle)">
+            <item column="1" type="Word class">
+              <item type="s">verb (past participle</item>
+            </item>
+            <item column="2" type="Mood">
+              <item type="þ">past participle</item>
+            </item>
+            <item column="3" type="Voice">
+              <item type="g">active</item>
+              <item type="m">middle</item>
+            </item>
+            <item column="4" type="Person">
+              <item type="k">masculine</item>
+              <item type="v">feminine</item>
+              <item type="h">neuter</item>
+            </item>
+            <item column="5" type="Number">
+              <item type="e">singular</item>
+              <item type="f">plural</item>
+            </item>
+            <item column="6" type="Tense">
+              <item type="n">nominative</item>
+              <item type="o">accusative</item>
+            </item>
+          </list>
+          <list type="Adverbs">
+            <item column="1" type="Word class">
+              <item type="a">adverb</item>
+            </item>
+            <item column="2" type="Degree">
+              <item type="m">comparative</item>
+              <item type="e">superlative</item>
+            </item>
+            <item column="3" type="Class/case governor">
+              <item type="a">does not govern case</item>
+              <item type="u">exclamation</item>
+              <item type="o">governs accusative</item>
+              <item type="þ">governs dative</item>
+              <item type="e">governs genitive</item>
+            </item>
+          </list>
+          <list type="Conjunctions">
+            <item column="1" type="Word class">
+              <item type="c">conjunction</item>
+            </item>
+            <item column="2" type="Category">
+              <item type="n">sign of infinitive</item>
+              <item type="t">relative conjunction</item>
+            </item>
+          </list>
+          <list type="Foreign words">
+            <item column="1" type="Category">
+              <item type="e">foreign word</item>
+            </item>
+          </list>
+          <list type="Unanalysed words">
+            <item column="1" type="Category">
+              <item type="x">unanalysed word</item>
+            </item>
+          </list>
+        </list>
+      </p>
+      <p>
+       <list gi="c" n="type">
+        <item id="!" occurs="3">greinarmerki</item>
+        <item id="(" occurs="101">greinarmerki</item>
+        <item id=")" occurs="101">greinarmerki</item>
+        <item id="+" occurs="7">greinarmerki</item>
+        <item id="," occurs="26134">greinarmerki</item>
+        <item id="-" occurs="89">greinarmerki</item>
+        <item id="." occurs="97293">greinarmerki</item>
+        <item id=".." occurs="3">greinarmerki</item>
+        <item id="..." occurs="168">greinarmerki</item>
+        <item id="...." occurs="3">greinarmerki</item>
+        <item id=":" occurs="11640">greinarmerki</item>
+        <item id=";" occurs="1031">greinarmerki</item>
+        <item id="?" occurs="2496">greinarmerki</item>
+        <item id="[" occurs="21">greinarmerki</item>
+        <item id="]" occurs="21">greinarmerki</item>
+        <item id="_" occurs="2">greinarmerki</item>
+        <item id="«" occurs="18345">greinarmerki</item>
+        <item id="»" occurs="18360">greinarmerki</item>
+       </list>
+       <list>
+        <item id="aa" occurs="165580">atviksorð</item>
+        <item id="aae" occurs="2483">atviksorð efsta-stig</item>
+        <item id="aam" occurs="5540">atviksorð miðstig</item>
+        <item id="ae" occurs="22463">forsetning stýrir-eignarfalli</item>
+        <item id="ao" occurs="50587">forsetning stýrir-þolfalli</item>
+        <item id="as" occurs="43">skammstöfun</item>
+        <item id="au" occurs="300">upphrópun</item>
+        <item id="aþ" occurs="64648">forsetning stýrir-þágufalli</item>
+        <item id="aþe" occurs="187">forsetning stýrir-þágufalli efsta-stig</item>
+        <item id="aþm" occurs="190">forsetning stýrir-þágufalli miðstig</item>
+        <item id="c" occurs="162096">samtenging</item>
+        <item id="cn" occurs="11366">samtenging nafnháttarmerki</item>
+        <item id="ct" occurs="12571">samtenging tilvísunartenging</item>
+        <item id="e" occurs="111">erlent-orð</item>
+        <item id="fahee" occurs="477">fornafn ábendingarfornafn hvorkugkyn eintala eignarfall</item>
+        <item id="fahen" occurs="2458">fornafn ábendingarfornafn hvorkugkyn eintala nefnifall</item>
+        <item id="faheo" occurs="3304">fornafn ábendingarfornafn hvorkugkyn eintala þolfall</item>
+        <item id="faheþ" occurs="1909">fornafn ábendingarfornafn hvorkugkyn eintala þágufall</item>
+        <item id="fahfe" occurs="60">fornafn ábendingarfornafn hvorkugkyn fleirtala eignarfall</item>
+        <item id="fahfn" occurs="418">fornafn ábendingarfornafn hvorkugkyn fleirtala nefnifall</item>
+        <item id="fahfo" occurs="828">fornafn ábendingarfornafn hvorkugkyn fleirtala þolfall</item>
+        <item id="fahfþ" occurs="416">fornafn ábendingarfornafn hvorkugkyn fleirtala þágufall</item>
+        <item id="fakee" occurs="222">fornafn ábendingarfornafn karlkyn eintala eignarfall</item>
+        <item id="faken" occurs="2325">fornafn ábendingarfornafn karlkyn eintala nefnifall</item>
+        <item id="fakeo" occurs="2409">fornafn ábendingarfornafn karlkyn eintala þolfall</item>
+        <item id="fakeþ" occurs="932">fornafn ábendingarfornafn karlkyn eintala þágufall</item>
+        <item id="fakfe" occurs="384">fornafn ábendingarfornafn karlkyn fleirtala eignarfall</item>
+        <item id="fakfn" occurs="1432">fornafn ábendingarfornafn karlkyn fleirtala nefnifall</item>
+        <item id="fakfo" occurs="638">fornafn ábendingarfornafn karlkyn fleirtala þolfall</item>
+        <item id="fakfþ" occurs="710">fornafn ábendingarfornafn karlkyn fleirtala þágufall</item>
+        <item id="favee" occurs="200">fornafn ábendingarfornafn kvenkyn eintala eignarfall</item>
+        <item id="faven" occurs="789">fornafn ábendingarfornafn kvenkyn eintala nefnifall</item>
+        <item id="faveo" occurs="1271">fornafn ábendingarfornafn kvenkyn eintala þolfall</item>
+        <item id="faveþ" occurs="509">fornafn ábendingarfornafn kvenkyn eintala þágufall</item>
+        <item id="favfe" occurs="24">fornafn ábendingarfornafn kvenkyn fleirtala eignarfall</item>
+        <item id="favfn" occurs="130">fornafn ábendingarfornafn kvenkyn fleirtala nefnifall</item>
+        <item id="favfo" occurs="232">fornafn ábendingarfornafn kvenkyn fleirtala þolfall</item>
+        <item id="favfþ" occurs="151">fornafn ábendingarfornafn kvenkyn fleirtala þágufall</item>
+        <item id="fbhee" occurs="35">fornafn óákveðið-ábendingarfornafn hvorkugkyn eintala eignarfall</item>
+        <item id="fbhen" occurs="303">fornafn óákveðið-ábendingarfornafn hvorkugkyn eintala nefnifall</item>
+        <item id="fbheo" occurs="646">fornafn óákveðið-ábendingarfornafn hvorkugkyn eintala þolfall</item>
+        <item id="fbheþ" occurs="199">fornafn óákveðið-ábendingarfornafn hvorkugkyn eintala þágufall</item>
+        <item id="fbhfe" occurs="8">fornafn óákveðið-ábendingarfornafn hvorkugkyn fleirtala eignarfall</item>
+        <item id="fbhfn" occurs="52">fornafn óákveðið-ábendingarfornafn hvorkugkyn fleirtala nefnifall</item>
+        <item id="fbhfo" occurs="70">fornafn óákveðið-ábendingarfornafn hvorkugkyn fleirtala þolfall</item>
+        <item id="fbhfþ" occurs="41">fornafn óákveðið-ábendingarfornafn hvorkugkyn fleirtala þágufall</item>
+        <item id="fbkee" occurs="65">fornafn óákveðið-ábendingarfornafn karlkyn eintala eignarfall</item>
+        <item id="fbken" occurs="550">fornafn óákveðið-ábendingarfornafn karlkyn eintala nefnifall</item>
+        <item id="fbkeo" occurs="273">fornafn óákveðið-ábendingarfornafn karlkyn eintala þolfall</item>
+        <item id="fbkeþ" occurs="138">fornafn óákveðið-ábendingarfornafn karlkyn eintala þágufall</item>
+        <item id="fbkfe" occurs="27">fornafn óákveðið-ábendingarfornafn karlkyn fleirtala eignarfall</item>
+        <item id="fbkfn" occurs="146">fornafn óákveðið-ábendingarfornafn karlkyn fleirtala nefnifall</item>
+        <item id="fbkfo" occurs="61">fornafn óákveðið-ábendingarfornafn karlkyn fleirtala þolfall</item>
+        <item id="fbkfþ" occurs="30">fornafn óákveðið-ábendingarfornafn karlkyn fleirtala þágufall</item>
+        <item id="fbvee" occurs="12">fornafn óákveðið-ábendingarfornafn kvenkyn eintala eignarfall</item>
+        <item id="fbven" occurs="51">fornafn óákveðið-ábendingarfornafn kvenkyn eintala nefnifall</item>
+        <item id="fbveo" occurs="209">fornafn óákveðið-ábendingarfornafn kvenkyn eintala þolfall</item>
+        <item id="fbveþ" occurs="29">fornafn óákveðið-ábendingarfornafn kvenkyn eintala þágufall</item>
+        <item id="fbvfe" occurs="4">fornafn óákveðið-ábendingarfornafn kvenkyn fleirtala eignarfall</item>
+        <item id="fbvfn" occurs="35">fornafn óákveðið-ábendingarfornafn kvenkyn fleirtala nefnifall</item>
+        <item id="fbvfo" occurs="33">fornafn óákveðið-ábendingarfornafn kvenkyn fleirtala þolfall</item>
+        <item id="fbvfþ" occurs="15">fornafn óákveðið-ábendingarfornafn kvenkyn fleirtala þágufall</item>
+        <item id="fehee" occurs="356">fornafn eignarfornafn hvorkugkyn eintala eignarfall</item>
+        <item id="fehen" occurs="340">fornafn eignarfornafn hvorkugkyn eintala nefnifall</item>
+        <item id="feheo" occurs="1714">fornafn eignarfornafn hvorkugkyn eintala þolfall</item>
+        <item id="feheþ" occurs="1240">fornafn eignarfornafn hvorkugkyn eintala þágufall</item>
+        <item id="fehfe" occurs="225">fornafn eignarfornafn hvorkugkyn fleirtala eignarfall</item>
+        <item id="fehfn" occurs="69">fornafn eignarfornafn hvorkugkyn fleirtala nefnifall</item>
+        <item id="fehfo" occurs="927">fornafn eignarfornafn hvorkugkyn fleirtala þolfall</item>
+        <item id="fehfþ" occurs="382">fornafn eignarfornafn hvorkugkyn fleirtala þágufall</item>
+        <item id="fekee" occurs="871">fornafn eignarfornafn karlkyn eintala eignarfall</item>
+        <item id="feken" occurs="826">fornafn eignarfornafn karlkyn eintala nefnifall</item>
+        <item id="fekeo" occurs="2174">fornafn eignarfornafn karlkyn eintala þolfall</item>
+        <item id="fekeþ" occurs="1245">fornafn eignarfornafn karlkyn eintala þágufall</item>
+        <item id="fekfe" occurs="395">fornafn eignarfornafn karlkyn fleirtala eignarfall</item>
+        <item id="fekfn" occurs="282">fornafn eignarfornafn karlkyn fleirtala nefnifall</item>
+        <item id="fekfo" occurs="1049">fornafn eignarfornafn karlkyn fleirtala þolfall</item>
+        <item id="fekfþ" occurs="765">fornafn eignarfornafn karlkyn fleirtala þágufall</item>
+        <item id="fevee" occurs="372">fornafn eignarfornafn kvenkyn eintala eignarfall</item>
+        <item id="feven" occurs="338">fornafn eignarfornafn kvenkyn eintala nefnifall</item>
+        <item id="feveo" occurs="1641">fornafn eignarfornafn kvenkyn eintala þolfall</item>
+        <item id="feveþ" occurs="897">fornafn eignarfornafn kvenkyn eintala þágufall</item>
+        <item id="fevfe" occurs="64">fornafn eignarfornafn kvenkyn fleirtala eignarfall</item>
+        <item id="fevfn" occurs="25">fornafn eignarfornafn kvenkyn fleirtala nefnifall</item>
+        <item id="fevfo" occurs="356">fornafn eignarfornafn kvenkyn fleirtala þolfall</item>
+        <item id="fevfþ" occurs="158">fornafn eignarfornafn kvenkyn fleirtala þágufall</item>
+        <item id="fohee" occurs="400">fornafn óákveðið-fornafn hvorkugkyn eintala eignarfall</item>
+        <item id="fohen" occurs="2397">fornafn óákveðið-fornafn hvorkugkyn eintala nefnifall</item>
+        <item id="foheo" occurs="2523">fornafn óákveðið-fornafn hvorkugkyn eintala þolfall</item>
+        <item id="foheþ" occurs="1730">fornafn óákveðið-fornafn hvorkugkyn eintala þágufall</item>
+        <item id="fohfe" occurs="156">fornafn óákveðið-fornafn hvorkugkyn fleirtala eignarfall</item>
+        <item id="fohfn" occurs="543">fornafn óákveðið-fornafn hvorkugkyn fleirtala nefnifall</item>
+        <item id="fohfo" occurs="663">fornafn óákveðið-fornafn hvorkugkyn fleirtala þolfall</item>
+        <item id="fohfþ" occurs="353">fornafn óákveðið-fornafn hvorkugkyn fleirtala þágufall</item>
+        <item id="fokee" occurs="368">fornafn óákveðið-fornafn karlkyn eintala eignarfall</item>
+        <item id="foken" occurs="3115">fornafn óákveðið-fornafn karlkyn eintala nefnifall</item>
+        <item id="fokeo" occurs="2895">fornafn óákveðið-fornafn karlkyn eintala þolfall</item>
+        <item id="fokeþ" occurs="1066">fornafn óákveðið-fornafn karlkyn eintala þágufall</item>
+        <item id="fokfe" occurs="742">fornafn óákveðið-fornafn karlkyn fleirtala eignarfall</item>
+        <item id="fokfn" occurs="4424">fornafn óákveðið-fornafn karlkyn fleirtala nefnifall</item>
+        <item id="fokfo" occurs="1509">fornafn óákveðið-fornafn karlkyn fleirtala þolfall</item>
+        <item id="fokfþ" occurs="1424">fornafn óákveðið-fornafn karlkyn fleirtala þágufall</item>
+        <item id="fovee" occurs="94">fornafn óákveðið-fornafn kvenkyn eintala eignarfall</item>
+        <item id="foven" occurs="551">fornafn óákveðið-fornafn kvenkyn eintala nefnifall</item>
+        <item id="foveo" occurs="1161">fornafn óákveðið-fornafn kvenkyn eintala þolfall</item>
+        <item id="foveþ" occurs="405">fornafn óákveðið-fornafn kvenkyn eintala þágufall</item>
+        <item id="fovfe" occurs="82">fornafn óákveðið-fornafn kvenkyn fleirtala eignarfall</item>
+        <item id="fovfn" occurs="237">fornafn óákveðið-fornafn kvenkyn fleirtala nefnifall</item>
+        <item id="fovfo" occurs="444">fornafn óákveðið-fornafn kvenkyn fleirtala þolfall</item>
+        <item id="fovfþ" occurs="208">fornafn óákveðið-fornafn kvenkyn fleirtala þágufall</item>
+        <item id="fp1ee" occurs="186">fornafn persónufornafn 1.persóna eintala eignarfall</item>
+        <item id="fp1en" occurs="12434">fornafn persónufornafn 1.persóna eintala nefnifall</item>
+        <item id="fp1eo" occurs="1199">fornafn persónufornafn 1.persóna eintala þolfall</item>
+        <item id="fp1eþ" occurs="4207">fornafn persónufornafn 1.persóna eintala þágufall</item>
+        <item id="fp1fe" occurs="172">fornafn persónufornafn 1.persóna fleirtala eignarfall</item>
+        <item id="fp1fn" occurs="3315">fornafn persónufornafn 1.persóna fleirtala nefnifall</item>
+        <item id="fp1fo" occurs="393">fornafn persónufornafn 1.persóna fleirtala þolfall</item>
+        <item id="fp1fþ" occurs="1152">fornafn persónufornafn 1.persóna fleirtala þágufall</item>
+        <item id="fp2ee" occurs="167">fornafn persónufornafn 2.persóna eintala eignarfall</item>
+        <item id="fp2en" occurs="7044">fornafn persónufornafn 2.persóna eintala nefnifall</item>
+        <item id="fp2eo" occurs="1257">fornafn persónufornafn 2.persóna eintala þolfall</item>
+        <item id="fp2eþ" occurs="3823">fornafn persónufornafn 2.persóna eintala þágufall</item>
+        <item id="fp2fe" occurs="165">fornafn persónufornafn 2.persóna fleirtala eignarfall</item>
+        <item id="fp2fn" occurs="1557">fornafn persónufornafn 2.persóna fleirtala nefnifall</item>
+        <item id="fp2fo" occurs="262">fornafn persónufornafn 2.persóna fleirtala þolfall</item>
+        <item id="fp2fþ" occurs="1099">fornafn persónufornafn 2.persóna fleirtala þágufall</item>
+        <item id="fphee" occurs="2168">fornafn persónufornafn hvorkugkyn eintala eignarfall</item>
+        <item id="fphen" occurs="8914">fornafn persónufornafn hvorkugkyn eintala nefnifall</item>
+        <item id="fpheo" occurs="5933">fornafn persónufornafn hvorkugkyn eintala þolfall</item>
+        <item id="fpheþ" occurs="6937">fornafn persónufornafn hvorkugkyn eintala þágufall</item>
+        <item id="fphfe" occurs="1485">fornafn persónufornafn hvorkugkyn fleirtala eignarfall</item>
+        <item id="fphfn" occurs="1658">fornafn persónufornafn hvorkugkyn fleirtala nefnifall</item>
+        <item id="fphfo" occurs="273">fornafn persónufornafn hvorkugkyn fleirtala þolfall</item>
+        <item id="fphfþ" occurs="1236">fornafn persónufornafn hvorkugkyn fleirtala þágufall</item>
+        <item id="fpkee" occurs="6977">fornafn persónufornafn karlkyn eintala eignarfall</item>
+        <item id="fpken" occurs="33823">fornafn persónufornafn karlkyn eintala nefnifall</item>
+        <item id="fpkeo" occurs="6022">fornafn persónufornafn karlkyn eintala þolfall</item>
+        <item id="fpkeþ" occurs="12907">fornafn persónufornafn karlkyn eintala þágufall</item>
+        <item id="fpkfe" occurs="2574">fornafn persónufornafn karlkyn fleirtala eignarfall</item>
+        <item id="fpkfn" occurs="20002">fornafn persónufornafn karlkyn fleirtala nefnifall</item>
+        <item id="fpkfo" occurs="1769">fornafn persónufornafn karlkyn fleirtala þolfall</item>
+        <item id="fpkfþ" occurs="4161">fornafn persónufornafn karlkyn fleirtala þágufall</item>
+        <item id="fpvee" occurs="824">fornafn persónufornafn kvenkyn eintala eignarfall</item>
+        <item id="fpven" occurs="4166">fornafn persónufornafn kvenkyn eintala nefnifall</item>
+        <item id="fpveo" occurs="884">fornafn persónufornafn kvenkyn eintala þolfall</item>
+        <item id="fpveþ" occurs="1389">fornafn persónufornafn kvenkyn eintala þágufall</item>
+        <item id="fpvfe" occurs="115">fornafn persónufornafn kvenkyn fleirtala eignarfall</item>
+        <item id="fpvfn" occurs="331">fornafn persónufornafn kvenkyn fleirtala nefnifall</item>
+        <item id="fpvfo" occurs="101">fornafn persónufornafn kvenkyn fleirtala þolfall</item>
+        <item id="fpvfþ" occurs="462">fornafn persónufornafn kvenkyn fleirtala þágufall</item>
+        <item id="fshee" occurs="83">fornafn spurnarfornafn hvorkugkyn eintala eignarfall</item>
+        <item id="fshen" occurs="1051">fornafn spurnarfornafn hvorkugkyn eintala nefnifall</item>
+        <item id="fsheo" occurs="781">fornafn spurnarfornafn hvorkugkyn eintala þolfall</item>
+        <item id="fsheþ" occurs="87">fornafn spurnarfornafn hvorkugkyn eintala þágufall</item>
+        <item id="fshfn" occurs="16">fornafn spurnarfornafn hvorkugkyn fleirtala nefnifall</item>
+        <item id="fskee" occurs="24">fornafn spurnarfornafn karlkyn eintala eignarfall</item>
+        <item id="fsken" occurs="495">fornafn spurnarfornafn karlkyn eintala nefnifall</item>
+        <item id="fskeo" occurs="23">fornafn spurnarfornafn karlkyn eintala þolfall</item>
+        <item id="fskeþ" occurs="4">fornafn spurnarfornafn karlkyn eintala þágufall</item>
+        <item id="fskfe" occurs="5">fornafn spurnarfornafn karlkyn fleirtala eignarfall</item>
+        <item id="fskfn" occurs="169">fornafn spurnarfornafn karlkyn fleirtala nefnifall</item>
+        <item id="fskfo" occurs="1">fornafn spurnarfornafn karlkyn fleirtala þolfall</item>
+        <item id="fskfþ" occurs="3">fornafn spurnarfornafn karlkyn fleirtala þágufall</item>
+        <item id="fsvee" occurs="3">fornafn spurnarfornafn kvenkyn eintala eignarfall</item>
+        <item id="fsven" occurs="21">fornafn spurnarfornafn kvenkyn eintala nefnifall</item>
+        <item id="fsveo" occurs="3">fornafn spurnarfornafn kvenkyn eintala þolfall</item>
+        <item id="fsvfn" occurs="10">fornafn spurnarfornafn kvenkyn fleirtala nefnifall</item>
+        <item id="ghee" occurs="60">greinir hvorkugkyn eintala eignarfall</item>
+        <item id="ghen" occurs="480">greinir hvorkugkyn eintala nefnifall</item>
+        <item id="gheo" occurs="378">greinir hvorkugkyn eintala þolfall</item>
+        <item id="gheþ" occurs="54">greinir hvorkugkyn eintala þágufall</item>
+        <item id="ghfe" occurs="1">greinir hvorkugkyn fleirtala eignarfall</item>
+        <item id="ghfn" occurs="4">greinir hvorkugkyn fleirtala nefnifall</item>
+        <item id="ghfo" occurs="54">greinir hvorkugkyn fleirtala þolfall</item>
+        <item id="ghfþ" occurs="26">greinir hvorkugkyn fleirtala þágufall</item>
+        <item id="gkee" occurs="506">greinir karlkyn eintala eignarfall</item>
+        <item id="gken" occurs="1833">greinir karlkyn eintala nefnifall</item>
+        <item id="gkeo" occurs="592">greinir karlkyn eintala þolfall</item>
+        <item id="gkeþ" occurs="188">greinir karlkyn eintala þágufall</item>
+        <item id="gkfe" occurs="30">greinir karlkyn fleirtala eignarfall</item>
+        <item id="gkfn" occurs="166">greinir karlkyn fleirtala nefnifall</item>
+        <item id="gkfo" occurs="68">greinir karlkyn fleirtala þolfall</item>
+        <item id="gkfþ" occurs="18">greinir karlkyn fleirtala þágufall</item>
+        <item id="gvee" occurs="35">greinir kvenkyn eintala eignarfall</item>
+        <item id="gven" occurs="339">greinir kvenkyn eintala nefnifall</item>
+        <item id="gveo" occurs="179">greinir kvenkyn eintala þolfall</item>
+        <item id="gveþ" occurs="73">greinir kvenkyn eintala þágufall</item>
+        <item id="gvfe" occurs="4">greinir kvenkyn fleirtala eignarfall</item>
+        <item id="gvfn" occurs="21">greinir kvenkyn fleirtala nefnifall</item>
+        <item id="gvfo" occurs="2">greinir kvenkyn fleirtala þolfall</item>
+        <item id="gvfþ" occurs="10">greinir kvenkyn fleirtala þágufall</item>
+        <item id="lheesf" occurs="501">lýsingarorð hvorkugkyn eintala eignarfall sterk-beyging frumstig</item>
+        <item id="lheeve" occurs="6">lýsingarorð hvorkugkyn eintala eignarfall veik-beyging efsta-stig</item>
+        <item id="lheevf" occurs="66">lýsingarorð hvorkugkyn eintala eignarfall veik-beyging frumstig</item>
+        <item id="lheevm" occurs="36">lýsingarorð hvorkugkyn eintala eignarfall veik-beyging miðstig</item>
+        <item id="lhenof" occurs="66">lýsingarorð hvorkugkyn eintala nefnifall óbeygt frumstig</item>
+        <item id="lhense" occurs="564">lýsingarorð hvorkugkyn eintala nefnifall sterk-beyging efsta-stig</item>
+        <item id="lhensf" occurs="7617">lýsingarorð hvorkugkyn eintala nefnifall sterk-beyging frumstig</item>
+        <item id="lhenve" occurs="283">lýsingarorð hvorkugkyn eintala nefnifall veik-beyging efsta-stig</item>
+        <item id="lhenvf" occurs="172">lýsingarorð hvorkugkyn eintala nefnifall veik-beyging frumstig</item>
+        <item id="lhenvm" occurs="954">lýsingarorð hvorkugkyn eintala nefnifall veik-beyging miðstig</item>
+        <item id="lheoof" occurs="14">lýsingarorð hvorkugkyn eintala þolfall óbeygt frumstig</item>
+        <item id="lheose" occurs="28">lýsingarorð hvorkugkyn eintala þolfall sterk-beyging efsta-stig</item>
+        <item id="lheosf" occurs="3326">lýsingarorð hvorkugkyn eintala þolfall sterk-beyging frumstig</item>
+        <item id="lheove" occurs="135">lýsingarorð hvorkugkyn eintala þolfall veik-beyging efsta-stig</item>
+        <item id="lheovf" occurs="169">lýsingarorð hvorkugkyn eintala þolfall veik-beyging frumstig</item>
+        <item id="lheovm" occurs="670">lýsingarorð hvorkugkyn eintala þolfall veik-beyging miðstig</item>
+        <item id="lheþof" occurs="31">lýsingarorð hvorkugkyn eintala þágufall óbeygt frumstig</item>
+        <item id="lheþse" occurs="62">lýsingarorð hvorkugkyn eintala þágufall sterk-beyging efsta-stig</item>
+        <item id="lheþsf" occurs="2020">lýsingarorð hvorkugkyn eintala þágufall sterk-beyging frumstig</item>
+        <item id="lheþve" occurs="44">lýsingarorð hvorkugkyn eintala þágufall veik-beyging efsta-stig</item>
+        <item id="lheþvf" occurs="98">lýsingarorð hvorkugkyn eintala þágufall veik-beyging frumstig</item>
+        <item id="lheþvm" occurs="113">lýsingarorð hvorkugkyn eintala þágufall veik-beyging miðstig</item>
+        <item id="lhfesf" occurs="72">lýsingarorð hvorkugkyn fleirtala eignarfall sterk-beyging frumstig</item>
+        <item id="lhfevf" occurs="7">lýsingarorð hvorkugkyn fleirtala eignarfall veik-beyging frumstig</item>
+        <item id="lhfevm" occurs="9">lýsingarorð hvorkugkyn fleirtala eignarfall veik-beyging miðstig</item>
+        <item id="lhfnof" occurs="5">lýsingarorð hvorkugkyn fleirtala nefnifall óbeygt frumstig</item>
+        <item id="lhfnse" occurs="65">lýsingarorð hvorkugkyn fleirtala nefnifall sterk-beyging efsta-stig</item>
+        <item id="lhfnsf" occurs="993">lýsingarorð hvorkugkyn fleirtala nefnifall sterk-beyging frumstig</item>
+        <item id="lhfnve" occurs="10">lýsingarorð hvorkugkyn fleirtala nefnifall veik-beyging efsta-stig</item>
+        <item id="lhfnvf" occurs="13">lýsingarorð hvorkugkyn fleirtala nefnifall veik-beyging frumstig</item>
+        <item id="lhfnvm" occurs="98">lýsingarorð hvorkugkyn fleirtala nefnifall veik-beyging miðstig</item>
+        <item id="lhfoof" occurs="6">lýsingarorð hvorkugkyn fleirtala þolfall óbeygt frumstig</item>
+        <item id="lhfose" occurs="16">lýsingarorð hvorkugkyn fleirtala þolfall sterk-beyging efsta-stig</item>
+        <item id="lhfosf" occurs="619">lýsingarorð hvorkugkyn fleirtala þolfall sterk-beyging frumstig</item>
+        <item id="lhfove" occurs="25">lýsingarorð hvorkugkyn fleirtala þolfall veik-beyging efsta-stig</item>
+        <item id="lhfovf" occurs="31">lýsingarorð hvorkugkyn fleirtala þolfall veik-beyging frumstig</item>
+        <item id="lhfovm" occurs="63">lýsingarorð hvorkugkyn fleirtala þolfall veik-beyging miðstig</item>
+        <item id="lhfþof" occurs="3">lýsingarorð hvorkugkyn fleirtala þágufall óbeygt frumstig</item>
+        <item id="lhfþse" occurs="28">lýsingarorð hvorkugkyn fleirtala þágufall sterk-beyging efsta-stig</item>
+        <item id="lhfþsf" occurs="283">lýsingarorð hvorkugkyn fleirtala þágufall sterk-beyging frumstig</item>
+        <item id="lhfþve" occurs="1">lýsingarorð hvorkugkyn fleirtala þágufall veik-beyging efsta-stig</item>
+        <item id="lhfþvf" occurs="2">lýsingarorð hvorkugkyn fleirtala þágufall veik-beyging frumstig</item>
+        <item id="lhfþvm" occurs="12">lýsingarorð hvorkugkyn fleirtala þágufall veik-beyging miðstig</item>
+        <item id="lkeesf" occurs="264">lýsingarorð karlkyn eintala eignarfall sterk-beyging frumstig</item>
+        <item id="lkeeve" occurs="11">lýsingarorð karlkyn eintala eignarfall veik-beyging efsta-stig</item>
+        <item id="lkeevf" occurs="717">lýsingarorð karlkyn eintala eignarfall veik-beyging frumstig</item>
+        <item id="lkeevm" occurs="21">lýsingarorð karlkyn eintala eignarfall veik-beyging miðstig</item>
+        <item id="lkenof" occurs="105">lýsingarorð karlkyn eintala nefnifall óbeygt frumstig</item>
+        <item id="lkense" occurs="938">lýsingarorð karlkyn eintala nefnifall sterk-beyging efsta-stig</item>
+        <item id="lkensf" occurs="13365">lýsingarorð karlkyn eintala nefnifall sterk-beyging frumstig</item>
+        <item id="lkenve" occurs="705">lýsingarorð karlkyn eintala nefnifall veik-beyging efsta-stig</item>
+        <item id="lkenvf" occurs="1835">lýsingarorð karlkyn eintala nefnifall veik-beyging frumstig</item>
+        <item id="lkenvm" occurs="685">lýsingarorð karlkyn eintala nefnifall veik-beyging miðstig</item>
+        <item id="lkeoof" occurs="19">lýsingarorð karlkyn eintala þolfall óbeygt frumstig</item>
+        <item id="lkeose" occurs="89">lýsingarorð karlkyn eintala þolfall sterk-beyging efsta-stig</item>
+        <item id="lkeosf" occurs="2641">lýsingarorð karlkyn eintala þolfall sterk-beyging frumstig</item>
+        <item id="lkeove" occurs="210">lýsingarorð karlkyn eintala þolfall veik-beyging efsta-stig</item>
+        <item id="lkeovf" occurs="680">lýsingarorð karlkyn eintala þolfall veik-beyging frumstig</item>
+        <item id="lkeovm" occurs="89">lýsingarorð karlkyn eintala þolfall veik-beyging miðstig</item>
+        <item id="lkeþof" occurs="2">lýsingarorð karlkyn eintala þágufall óbeygt frumstig</item>
+        <item id="lkeþse" occurs="35">lýsingarorð karlkyn eintala þágufall sterk-beyging efsta-stig</item>
+        <item id="lkeþsf" occurs="897">lýsingarorð karlkyn eintala þágufall sterk-beyging frumstig</item>
+        <item id="lkeþve" occurs="50">lýsingarorð karlkyn eintala þágufall veik-beyging efsta-stig</item>
+        <item id="lkeþvf" occurs="248">lýsingarorð karlkyn eintala þágufall veik-beyging frumstig</item>
+        <item id="lkeþvm" occurs="28">lýsingarorð karlkyn eintala þágufall veik-beyging miðstig</item>
+        <item id="lkfeof" occurs="8">lýsingarorð karlkyn fleirtala eignarfall óbeygt frumstig</item>
+        <item id="lkfese" occurs="31">lýsingarorð karlkyn fleirtala eignarfall sterk-beyging efsta-stig</item>
+        <item id="lkfesf" occurs="447">lýsingarorð karlkyn fleirtala eignarfall sterk-beyging frumstig</item>
+        <item id="lkfeve" occurs="16">lýsingarorð karlkyn fleirtala eignarfall veik-beyging efsta-stig</item>
+        <item id="lkfevf" occurs="23">lýsingarorð karlkyn fleirtala eignarfall veik-beyging frumstig</item>
+        <item id="lkfevm" occurs="27">lýsingarorð karlkyn fleirtala eignarfall veik-beyging miðstig</item>
+        <item id="lkfnof" occurs="73">lýsingarorð karlkyn fleirtala nefnifall óbeygt frumstig</item>
+        <item id="lkfnse" occurs="416">lýsingarorð karlkyn fleirtala nefnifall sterk-beyging efsta-stig</item>
+        <item id="lkfnsf" occurs="4790">lýsingarorð karlkyn fleirtala nefnifall sterk-beyging frumstig</item>
+        <item id="lkfnve" occurs="130">lýsingarorð karlkyn fleirtala nefnifall veik-beyging efsta-stig</item>
+        <item id="lkfnvf" occurs="61">lýsingarorð karlkyn fleirtala nefnifall veik-beyging frumstig</item>
+        <item id="lkfnvm" occurs="426">lýsingarorð karlkyn fleirtala nefnifall veik-beyging miðstig</item>
+        <item id="lkfoof" occurs="4">lýsingarorð karlkyn fleirtala þolfall óbeygt frumstig</item>
+        <item id="lkfose" occurs="44">lýsingarorð karlkyn fleirtala þolfall sterk-beyging efsta-stig</item>
+        <item id="lkfosf" occurs="1111">lýsingarorð karlkyn fleirtala þolfall sterk-beyging frumstig</item>
+        <item id="lkfove" occurs="48">lýsingarorð karlkyn fleirtala þolfall veik-beyging efsta-stig</item>
+        <item id="lkfovf" occurs="34">lýsingarorð karlkyn fleirtala þolfall veik-beyging frumstig</item>
+        <item id="lkfovm" occurs="118">lýsingarorð karlkyn fleirtala þolfall veik-beyging miðstig</item>
+        <item id="lkfþof" occurs="13">lýsingarorð karlkyn fleirtala þágufall óbeygt frumstig</item>
+        <item id="lkfþse" occurs="95">lýsingarorð karlkyn fleirtala þágufall sterk-beyging efsta-stig</item>
+        <item id="lkfþsf" occurs="652">lýsingarorð karlkyn fleirtala þágufall sterk-beyging frumstig</item>
+        <item id="lkfþsm" occurs="36">lýsingarorð karlkyn fleirtala þágufall sterk-beyging miðstig</item>
+        <item id="lkfþve" occurs="15">lýsingarorð karlkyn fleirtala þágufall veik-beyging efsta-stig</item>
+        <item id="lkfþvf" occurs="13">lýsingarorð karlkyn fleirtala þágufall veik-beyging frumstig</item>
+        <item id="lkfþvm" occurs="30">lýsingarorð karlkyn fleirtala þágufall veik-beyging miðstig</item>
+        <item id="lveese" occurs="1">lýsingarorð kvenkyn eintala eignarfall sterk-beyging efsta-stig</item>
+        <item id="lveesf" occurs="133">lýsingarorð kvenkyn eintala eignarfall sterk-beyging frumstig</item>
+        <item id="lveeve" occurs="6">lýsingarorð kvenkyn eintala eignarfall veik-beyging efsta-stig</item>
+        <item id="lveevf" occurs="30">lýsingarorð kvenkyn eintala eignarfall veik-beyging frumstig</item>
+        <item id="lveevm" occurs="23">lýsingarorð kvenkyn eintala eignarfall veik-beyging miðstig</item>
+        <item id="lvenof" occurs="37">lýsingarorð kvenkyn eintala nefnifall óbeygt frumstig</item>
+        <item id="lvense" occurs="151">lýsingarorð kvenkyn eintala nefnifall sterk-beyging efsta-stig</item>
+        <item id="lvensf" occurs="3024">lýsingarorð kvenkyn eintala nefnifall sterk-beyging frumstig</item>
+        <item id="lvenve" occurs="199">lýsingarorð kvenkyn eintala nefnifall veik-beyging efsta-stig</item>
+        <item id="lvenvf" occurs="150">lýsingarorð kvenkyn eintala nefnifall veik-beyging frumstig</item>
+        <item id="lvenvm" occurs="364">lýsingarorð kvenkyn eintala nefnifall veik-beyging miðstig</item>
+        <item id="lveoof" occurs="5">lýsingarorð kvenkyn eintala þolfall óbeygt frumstig</item>
+        <item id="lveose" occurs="19">lýsingarorð kvenkyn eintala þolfall sterk-beyging efsta-stig</item>
+        <item id="lveosf" occurs="1576">lýsingarorð kvenkyn eintala þolfall sterk-beyging frumstig</item>
+        <item id="lveove" occurs="78">lýsingarorð kvenkyn eintala þolfall veik-beyging efsta-stig</item>
+        <item id="lveovf" occurs="108">lýsingarorð kvenkyn eintala þolfall veik-beyging frumstig</item>
+        <item id="lveovm" occurs="138">lýsingarorð kvenkyn eintala þolfall veik-beyging miðstig</item>
+        <item id="lveþof" occurs="4">lýsingarorð kvenkyn eintala þágufall óbeygt frumstig</item>
+        <item id="lveþse" occurs="8">lýsingarorð kvenkyn eintala þágufall sterk-beyging efsta-stig</item>
+        <item id="lveþsf" occurs="483">lýsingarorð kvenkyn eintala þágufall sterk-beyging frumstig</item>
+        <item id="lveþve" occurs="118">lýsingarorð kvenkyn eintala þágufall veik-beyging efsta-stig</item>
+        <item id="lveþvf" occurs="68">lýsingarorð kvenkyn eintala þágufall veik-beyging frumstig</item>
+        <item id="lveþvm" occurs="40">lýsingarorð kvenkyn eintala þágufall veik-beyging miðstig</item>
+        <item id="lvfesf" occurs="40">lýsingarorð kvenkyn fleirtala eignarfall sterk-beyging frumstig</item>
+        <item id="lvfeve" occurs="3">lýsingarorð kvenkyn fleirtala eignarfall veik-beyging efsta-stig</item>
+        <item id="lvfevf" occurs="5">lýsingarorð kvenkyn fleirtala eignarfall veik-beyging frumstig</item>
+        <item id="lvfevm" occurs="21">lýsingarorð kvenkyn fleirtala eignarfall veik-beyging miðstig</item>
+        <item id="lvfnof" occurs="5">lýsingarorð kvenkyn fleirtala nefnifall óbeygt frumstig</item>
+        <item id="lvfnse" occurs="36">lýsingarorð kvenkyn fleirtala nefnifall sterk-beyging efsta-stig</item>
+        <item id="lvfnsf" occurs="654">lýsingarorð kvenkyn fleirtala nefnifall sterk-beyging frumstig</item>
+        <item id="lvfnve" occurs="21">lýsingarorð kvenkyn fleirtala nefnifall veik-beyging efsta-stig</item>
+        <item id="lvfnvf" occurs="9">lýsingarorð kvenkyn fleirtala nefnifall veik-beyging frumstig</item>
+        <item id="lvfnvm" occurs="11">lýsingarorð kvenkyn fleirtala nefnifall veik-beyging miðstig</item>
+        <item id="lvfoof" occurs="1">lýsingarorð kvenkyn fleirtala þolfall óbeygt frumstig</item>
+        <item id="lvfose" occurs="12">lýsingarorð kvenkyn fleirtala þolfall sterk-beyging efsta-stig</item>
+        <item id="lvfosf" occurs="583">lýsingarorð kvenkyn fleirtala þolfall sterk-beyging frumstig</item>
+        <item id="lvfove" occurs="2">lýsingarorð kvenkyn fleirtala þolfall veik-beyging efsta-stig</item>
+        <item id="lvfovf" occurs="6">lýsingarorð kvenkyn fleirtala þolfall veik-beyging frumstig</item>
+        <item id="lvfovm" occurs="36">lýsingarorð kvenkyn fleirtala þolfall veik-beyging miðstig</item>
+        <item id="lvfþof" occurs="1">lýsingarorð kvenkyn fleirtala þágufall óbeygt frumstig</item>
+        <item id="lvfþse" occurs="5">lýsingarorð kvenkyn fleirtala þágufall sterk-beyging efsta-stig</item>
+        <item id="lvfþsf" occurs="201">lýsingarorð kvenkyn fleirtala þágufall sterk-beyging frumstig</item>
+        <item id="lvfþve" occurs="3">lýsingarorð kvenkyn fleirtala þágufall veik-beyging efsta-stig</item>
+        <item id="lvfþvf" occurs="8">lýsingarorð kvenkyn fleirtala þágufall veik-beyging frumstig</item>
+        <item id="lvfþvm" occurs="12">lýsingarorð kvenkyn fleirtala þágufall veik-beyging miðstig</item>
+        <item id="nhee" occurs="4929">nafnorð hvorkugkyn eintala eignarfall</item>
+        <item id="nhee-s" occurs="1733">nafnorð hvorkugkyn eintala eignarfall sérnafn</item>
+        <item id="nheeg" occurs="476">nafnorð hvorkugkyn eintala eignarfall með-greini</item>
+        <item id="nheegs" occurs="2">nafnorð hvorkugkyn eintala eignarfall með-greini sérnafn</item>
+        <item id="nhen" occurs="6865">nafnorð hvorkugkyn eintala nefnifall</item>
+        <item id="nhen-s" occurs="337">nafnorð hvorkugkyn eintala nefnifall sérnafn</item>
+        <item id="nheng" occurs="1737">nafnorð hvorkugkyn eintala nefnifall með-greini</item>
+        <item id="nhengs" occurs="12">nafnorð hvorkugkyn eintala nefnifall með-greini sérnafn</item>
+        <item id="nheo" occurs="17513">nafnorð hvorkugkyn eintala þolfall</item>
+        <item id="nheo-s" occurs="1715">nafnorð hvorkugkyn eintala þolfall sérnafn</item>
+        <item id="nheog" occurs="6504">nafnorð hvorkugkyn eintala þolfall með-greini</item>
+        <item id="nheogs" occurs="5">nafnorð hvorkugkyn eintala þolfall með-greini sérnafn</item>
+        <item id="nheþ" occurs="11568">nafnorð hvorkugkyn eintala þágufall</item>
+        <item id="nheþ-s" occurs="3236">nafnorð hvorkugkyn eintala þágufall sérnafn</item>
+        <item id="nheþg" occurs="2948">nafnorð hvorkugkyn eintala þágufall með-greini</item>
+        <item id="nheþgs" occurs="4">nafnorð hvorkugkyn eintala þágufall með-greini sérnafn</item>
+        <item id="nhfe" occurs="2599">nafnorð hvorkugkyn fleirtala eignarfall</item>
+        <item id="nhfe-s" occurs="24">nafnorð hvorkugkyn fleirtala eignarfall sérnafn</item>
+        <item id="nhfeg" occurs="167">nafnorð hvorkugkyn fleirtala eignarfall með-greini</item>
+        <item id="nhfn" occurs="2698">nafnorð hvorkugkyn fleirtala nefnifall</item>
+        <item id="nhfn-s" occurs="19">nafnorð hvorkugkyn fleirtala nefnifall sérnafn</item>
+        <item id="nhfng" occurs="418">nafnorð hvorkugkyn fleirtala nefnifall með-greini</item>
+        <item id="nhfngs" occurs="2">nafnorð hvorkugkyn fleirtala nefnifall með-greini sérnafn</item>
+        <item id="nhfo" occurs="5671">nafnorð hvorkugkyn fleirtala þolfall</item>
+        <item id="nhfo-s" occurs="111">nafnorð hvorkugkyn fleirtala þolfall sérnafn</item>
+        <item id="nhfog" occurs="1131">nafnorð hvorkugkyn fleirtala þolfall með-greini</item>
+        <item id="nhfogs" occurs="4">nafnorð hvorkugkyn fleirtala þolfall með-greini sérnafn</item>
+        <item id="nhfþ" occurs="4240">nafnorð hvorkugkyn fleirtala þágufall</item>
+        <item id="nhfþ-s" occurs="125">nafnorð hvorkugkyn fleirtala þágufall sérnafn</item>
+        <item id="nhfþg" occurs="347">nafnorð hvorkugkyn fleirtala þágufall með-greini</item>
+        <item id="nkee" occurs="8419">nafnorð karlkyn eintala eignarfall</item>
+        <item id="nkee-s" occurs="15991">nafnorð karlkyn eintala eignarfall sérnafn</item>
+        <item id="nkeeg" occurs="619">nafnorð karlkyn eintala eignarfall með-greini</item>
+        <item id="nken" occurs="29745">nafnorð karlkyn eintala nefnifall</item>
+        <item id="nken-s" occurs="66989">nafnorð karlkyn eintala nefnifall sérnafn</item>
+        <item id="nkeng" occurs="2029">nafnorð karlkyn eintala nefnifall með-greini</item>
+        <item id="nkengs" occurs="12">nafnorð karlkyn eintala nefnifall með-greini sérnafn</item>
+        <item id="nkeo" occurs="18285">nafnorð karlkyn eintala þolfall</item>
+        <item id="nkeo-s" occurs="9263">nafnorð karlkyn eintala þolfall sérnafn</item>
+        <item id="nkeog" occurs="6012">nafnorð karlkyn eintala þolfall með-greini</item>
+        <item id="nkeogs" occurs="15">nafnorð karlkyn eintala þolfall með-greini sérnafn</item>
+        <item id="nkeþ" occurs="9472">nafnorð karlkyn eintala þágufall</item>
+        <item id="nkeþ-s" occurs="13969">nafnorð karlkyn eintala þágufall sérnafn</item>
+        <item id="nkeþg" occurs="2832">nafnorð karlkyn eintala þágufall með-greini</item>
+        <item id="nkeþgs" occurs="21">nafnorð karlkyn eintala þágufall með-greini sérnafn</item>
+        <item id="nkfe" occurs="4618">nafnorð karlkyn fleirtala eignarfall</item>
+        <item id="nkfe-s" occurs="664">nafnorð karlkyn fleirtala eignarfall sérnafn</item>
+        <item id="nkfeg" occurs="162">nafnorð karlkyn fleirtala eignarfall með-greini</item>
+        <item id="nkfegs" occurs="5">nafnorð karlkyn fleirtala eignarfall með-greini sérnafn</item>
+        <item id="nkfn" occurs="12218">nafnorð karlkyn fleirtala nefnifall</item>
+        <item id="nkfn-s" occurs="1322">nafnorð karlkyn fleirtala nefnifall sérnafn</item>
+        <item id="nkfng" occurs="495">nafnorð karlkyn fleirtala nefnifall með-greini</item>
+        <item id="nkfngs" occurs="14">nafnorð karlkyn fleirtala nefnifall með-greini sérnafn</item>
+        <item id="nkfo" occurs="7068">nafnorð karlkyn fleirtala þolfall</item>
+        <item id="nkfo-s" occurs="822">nafnorð karlkyn fleirtala þolfall sérnafn</item>
+        <item id="nkfog" occurs="589">nafnorð karlkyn fleirtala þolfall með-greini</item>
+        <item id="nkfogs" occurs="1">nafnorð karlkyn fleirtala þolfall með-greini sérnafn</item>
+        <item id="nkfþ" occurs="5473">nafnorð karlkyn fleirtala þágufall</item>
+        <item id="nkfþ-s" occurs="1814">nafnorð karlkyn fleirtala þágufall sérnafn</item>
+        <item id="nkfþg" occurs="271">nafnorð karlkyn fleirtala þágufall með-greini</item>
+        <item id="nkfþgs" occurs="1">nafnorð karlkyn fleirtala þágufall með-greini sérnafn</item>
+        <item id="nvee" occurs="4743">nafnorð kvenkyn eintala eignarfall</item>
+        <item id="nvee-s" occurs="2900">nafnorð kvenkyn eintala eignarfall sérnafn</item>
+        <item id="nveeg" occurs="457">nafnorð kvenkyn eintala eignarfall með-greini</item>
+        <item id="nveegs" occurs="10">nafnorð kvenkyn eintala eignarfall með-greini sérnafn</item>
+        <item id="nven" occurs="8203">nafnorð kvenkyn eintala nefnifall</item>
+        <item id="nven-s" occurs="5484">nafnorð kvenkyn eintala nefnifall sérnafn</item>
+        <item id="nveng" occurs="1108">nafnorð kvenkyn eintala nefnifall með-greini</item>
+        <item id="nvengs" occurs="3">nafnorð kvenkyn eintala nefnifall með-greini sérnafn</item>
+        <item id="nveo" occurs="12626">nafnorð kvenkyn eintala þolfall</item>
+        <item id="nveo-s" occurs="3167">nafnorð kvenkyn eintala þolfall sérnafn</item>
+        <item id="nveog" occurs="3127">nafnorð kvenkyn eintala þolfall með-greini</item>
+        <item id="nveogs" occurs="103">nafnorð kvenkyn eintala þolfall með-greini sérnafn</item>
+        <item id="nveþ" occurs="6922">nafnorð kvenkyn eintala þágufall</item>
+        <item id="nveþ-s" occurs="3354">nafnorð kvenkyn eintala þágufall sérnafn</item>
+        <item id="nveþg" occurs="1962">nafnorð kvenkyn eintala þágufall með-greini</item>
+        <item id="nveþgs" occurs="78">nafnorð kvenkyn eintala þágufall með-greini sérnafn</item>
+        <item id="nvfe" occurs="1240">nafnorð kvenkyn fleirtala eignarfall</item>
+        <item id="nvfe-s" occurs="245">nafnorð kvenkyn fleirtala eignarfall sérnafn</item>
+        <item id="nvfeg" occurs="89">nafnorð kvenkyn fleirtala eignarfall með-greini</item>
+        <item id="nvfn" occurs="1619">nafnorð kvenkyn fleirtala nefnifall</item>
+        <item id="nvfn-s" occurs="33">nafnorð kvenkyn fleirtala nefnifall sérnafn</item>
+        <item id="nvfng" occurs="98">nafnorð kvenkyn fleirtala nefnifall með-greini</item>
+        <item id="nvfo" occurs="4879">nafnorð kvenkyn fleirtala þolfall</item>
+        <item id="nvfo-s" occurs="231">nafnorð kvenkyn fleirtala þolfall sérnafn</item>
+        <item id="nvfog" occurs="424">nafnorð kvenkyn fleirtala þolfall með-greini</item>
+        <item id="nvfþ" occurs="2942">nafnorð kvenkyn fleirtala þágufall</item>
+        <item id="nvfþ-s" occurs="444">nafnorð kvenkyn fleirtala þágufall sérnafn</item>
+        <item id="nvfþg" occurs="338">nafnorð kvenkyn fleirtala þágufall með-greini</item>
+        <item id="nvfþgs" occurs="1">nafnorð kvenkyn fleirtala þágufall með-greini sérnafn</item>
+        <item id="nxee-s" occurs="8">nafnorð ógreint-kyn eintala eignarfall sérnafn</item>
+        <item id="nxen" occurs="17">nafnorð ógreint-kyn eintala nefnifall</item>
+        <item id="nxen-s" occurs="15">nafnorð ógreint-kyn eintala nefnifall sérnafn</item>
+        <item id="nxeo" occurs="4">nafnorð ógreint-kyn eintala þolfall</item>
+        <item id="nxeo-s" occurs="7">nafnorð ógreint-kyn eintala þolfall sérnafn</item>
+        <item id="nxeþ" occurs="1">nafnorð ógreint-kyn eintala þágufall</item>
+        <item id="nxeþ-s" occurs="43">nafnorð ógreint-kyn eintala þágufall sérnafn</item>
+        <item id="sbg1fn" occurs="6">sagnorð boðháttur germynd 1.persóna fleirtala nútíð</item>
+        <item id="sbg2en" occurs="1406">sagnorð boðháttur germynd 2.persóna eintala nútíð</item>
+        <item id="sbg2fn" occurs="288">sagnorð boðháttur germynd 2.persóna fleirtala nútíð</item>
+        <item id="sbm2en" occurs="20">sagnorð boðháttur miðmynd 2.persóna eintala nútíð</item>
+        <item id="sbm2fn" occurs="2">sagnorð boðháttur miðmynd 2.persóna fleirtala nútíð</item>
+        <item id="sfg1en" occurs="9382">sagnorð framsöguháttur germynd 1.persóna eintala nútíð</item>
+        <item id="sfg1eþ" occurs="1463">sagnorð framsöguháttur germynd 1.persóna eintala þátíð</item>
+        <item id="sfg1fn" occurs="2830">sagnorð framsöguháttur germynd 1.persóna fleirtala nútíð</item>
+        <item id="sfg1fþ" occurs="417">sagnorð framsöguháttur germynd 1.persóna fleirtala þátíð</item>
+        <item id="sfg2en" occurs="5484">sagnorð framsöguháttur germynd 2.persóna eintala nútíð</item>
+        <item id="sfg2eþ" occurs="638">sagnorð framsöguháttur germynd 2.persóna eintala þátíð</item>
+        <item id="sfg2fn" occurs="1478">sagnorð framsöguháttur germynd 2.persóna fleirtala nútíð</item>
+        <item id="sfg2fþ" occurs="156">sagnorð framsöguháttur germynd 2.persóna fleirtala þátíð</item>
+        <item id="sfg3en" occurs="51357">sagnorð framsöguháttur germynd 3.persóna eintala nútíð</item>
+        <item id="sfg3eþ" occurs="109432">sagnorð framsöguháttur germynd 3.persóna eintala þátíð</item>
+        <item id="sfg3fn" occurs="10678">sagnorð framsöguháttur germynd 3.persóna fleirtala nútíð</item>
+        <item id="sfg3fþ" occurs="31368">sagnorð framsöguháttur germynd 3.persóna fleirtala þátíð</item>
+        <item id="sfm1en" occurs="192">sagnorð framsöguháttur miðmynd 1.persóna eintala nútíð</item>
+        <item id="sfm1eþ" occurs="151">sagnorð framsöguháttur miðmynd 1.persóna eintala þátíð</item>
+        <item id="sfm1fn" occurs="130">sagnorð framsöguháttur miðmynd 1.persóna fleirtala nútíð</item>
+        <item id="sfm1fþ" occurs="65">sagnorð framsöguháttur miðmynd 1.persóna fleirtala þátíð</item>
+        <item id="sfm2en" occurs="170">sagnorð framsöguháttur miðmynd 2.persóna eintala nútíð</item>
+        <item id="sfm2eþ" occurs="56">sagnorð framsöguháttur miðmynd 2.persóna eintala þátíð</item>
+        <item id="sfm2fn" occurs="15">sagnorð framsöguháttur miðmynd 2.persóna fleirtala nútíð</item>
+        <item id="sfm2fþ" occurs="3">sagnorð framsöguháttur miðmynd 2.persóna fleirtala þátíð</item>
+        <item id="sfm3en" occurs="2564">sagnorð framsöguháttur miðmynd 3.persóna eintala nútíð</item>
+        <item id="sfm3eþ" occurs="6937">sagnorð framsöguháttur miðmynd 3.persóna eintala þátíð</item>
+        <item id="sfm3fn" occurs="865">sagnorð framsöguháttur miðmynd 3.persóna fleirtala nútíð</item>
+        <item id="sfm3fþ" occurs="3093">sagnorð framsöguháttur miðmynd 3.persóna fleirtala þátíð</item>
+        <item id="slg" occurs="156">sagnorð lýsingarháttur-nútíðar germynd</item>
+        <item id="sng" occurs="45935">sagnorð nafnháttur germynd</item>
+        <item id="sng--þ" occurs="1193">sagnorð nafnháttur germynd þátíð</item>
+        <item id="snm" occurs="2777">sagnorð nafnháttur miðmynd</item>
+        <item id="ssg" occurs="12202">sagnorð sagnbót germynd</item>
+        <item id="ssm" occurs="1125">sagnorð sagnbót miðmynd</item>
+        <item id="svg1en" occurs="569">sagnorð viðtengingarháttur germynd 1.persóna eintala nútíð</item>
+        <item id="svg1eþ" occurs="815">sagnorð viðtengingarháttur germynd 1.persóna eintala þátíð</item>
+        <item id="svg1fn" occurs="199">sagnorð viðtengingarháttur germynd 1.persóna fleirtala nútíð</item>
+        <item id="svg1fþ" occurs="124">sagnorð viðtengingarháttur germynd 1.persóna fleirtala þátíð</item>
+        <item id="svg2en" occurs="1267">sagnorð viðtengingarháttur germynd 2.persóna eintala nútíð</item>
+        <item id="svg2eþ" occurs="545">sagnorð viðtengingarháttur germynd 2.persóna eintala þátíð</item>
+        <item id="svg2fn" occurs="45">sagnorð viðtengingarháttur germynd 2.persóna fleirtala nútíð</item>
+        <item id="svg2fþ" occurs="102">sagnorð viðtengingarháttur germynd 2.persóna fleirtala þátíð</item>
+        <item id="svg3en" occurs="4695">sagnorð viðtengingarháttur germynd 3.persóna eintala nútíð</item>
+        <item id="svg3eþ" occurs="9882">sagnorð viðtengingarháttur germynd 3.persóna eintala þátíð</item>
+        <item id="svg3fn" occurs="1051">sagnorð viðtengingarháttur germynd 3.persóna fleirtala nútíð</item>
+        <item id="svg3fþ" occurs="2871">sagnorð viðtengingarháttur germynd 3.persóna fleirtala þátíð</item>
+        <item id="svm1en" occurs="8">sagnorð viðtengingarháttur miðmynd 1.persóna eintala nútíð</item>
+        <item id="svm1eþ" occurs="1">sagnorð viðtengingarháttur miðmynd 1.persóna eintala þátíð</item>
+        <item id="svm1fn" occurs="6">sagnorð viðtengingarháttur miðmynd 1.persóna fleirtala nútíð</item>
+        <item id="svm1fþ" occurs="1">sagnorð viðtengingarháttur miðmynd 1.persóna fleirtala þátíð</item>
+        <item id="svm2en" occurs="23">sagnorð viðtengingarháttur miðmynd 2.persóna eintala nútíð</item>
+        <item id="svm2fn" occurs="3">sagnorð viðtengingarháttur miðmynd 2.persóna fleirtala nútíð</item>
+        <item id="svm3en" occurs="170">sagnorð viðtengingarháttur miðmynd 3.persóna eintala nútíð</item>
+        <item id="svm3eþ" occurs="182">sagnorð viðtengingarháttur miðmynd 3.persóna eintala þátíð</item>
+        <item id="svm3fn" occurs="74">sagnorð viðtengingarháttur miðmynd 3.persóna fleirtala nútíð</item>
+        <item id="svm3fþ" occurs="86">sagnorð viðtengingarháttur miðmynd 3.persóna fleirtala þátíð</item>
+        <item id="sþghen" occurs="6536">sagnorð lýsingarháttur-þátíðar germynd hvorkugkyn eintala nefnifall</item>
+        <item id="sþgheo" occurs="18">sagnorð lýsingarháttur-þátíðar germynd hvorkugkyn eintala þolfall</item>
+        <item id="sþghfn" occurs="446">sagnorð lýsingarháttur-þátíðar germynd hvorkugkyn fleirtala nefnifall</item>
+        <item id="sþghfo" occurs="9">sagnorð lýsingarháttur-þátíðar germynd hvorkugkyn fleirtala þolfall</item>
+        <item id="sþgken" occurs="4137">sagnorð lýsingarháttur-þátíðar germynd karlkyn eintala nefnifall</item>
+        <item id="sþgkeo" occurs="9">sagnorð lýsingarháttur-þátíðar germynd karlkyn eintala þolfall</item>
+        <item id="sþgkfn" occurs="1534">sagnorð lýsingarháttur-þátíðar germynd karlkyn fleirtala nefnifall</item>
+        <item id="sþgkfo" occurs="7">sagnorð lýsingarháttur-þátíðar germynd karlkyn fleirtala þolfall</item>
+        <item id="sþgven" occurs="1039">sagnorð lýsingarháttur-þátíðar germynd kvenkyn eintala nefnifall</item>
+        <item id="sþgveo" occurs="9">sagnorð lýsingarháttur-þátíðar germynd kvenkyn eintala þolfall</item>
+        <item id="sþgvfn" occurs="185">sagnorð lýsingarháttur-þátíðar germynd kvenkyn fleirtala nefnifall</item>
+        <item id="sþmhen" occurs="91">sagnorð lýsingarháttur-þátíðar miðmynd hvorkugkyn eintala nefnifall</item>
+        <item id="sþmven" occurs="4">sagnorð lýsingarháttur-þátíðar miðmynd kvenkyn eintala nefnifall</item>
+        <item id="ta" occurs="84">töluorð óbeygjanlegt</item>
+        <item id="tfhee" occurs="9">töluorð frumtala hvorkugkyn eintala eignarfall beygjanlegt-töluorð</item>
+        <item id="tfhen" occurs="100">töluorð frumtala hvorkugkyn eintala nefnifall beygjanlegt-töluorð</item>
+        <item id="tfheo" occurs="194">töluorð frumtala hvorkugkyn eintala þolfall beygjanlegt-töluorð</item>
+        <item id="tfheþ" occurs="85">töluorð frumtala hvorkugkyn eintala þágufall beygjanlegt-töluorð</item>
+        <item id="tfhfe" occurs="87">töluorð frumtala hvorkugkyn fleirtala eignarfall beygjanlegt-töluorð</item>
+        <item id="tfhfn" occurs="370">töluorð frumtala hvorkugkyn fleirtala nefnifall beygjanlegt-töluorð</item>
+        <item id="tfhfo" occurs="530">töluorð frumtala hvorkugkyn fleirtala þolfall beygjanlegt-töluorð</item>
+        <item id="tfhfþ" occurs="93">töluorð frumtala hvorkugkyn fleirtala þágufall beygjanlegt-töluorð</item>
+        <item id="tfkee" occurs="18">töluorð frumtala karlkyn eintala eignarfall beygjanlegt-töluorð</item>
+        <item id="tfken" occurs="408">töluorð frumtala karlkyn eintala nefnifall beygjanlegt-töluorð</item>
+        <item id="tfkeo" occurs="419">töluorð frumtala karlkyn eintala þolfall beygjanlegt-töluorð</item>
+        <item id="tfkeþ" occurs="196">töluorð frumtala karlkyn eintala þágufall beygjanlegt-töluorð</item>
+        <item id="tfkfe" occurs="442">töluorð frumtala karlkyn fleirtala eignarfall beygjanlegt-töluorð</item>
+        <item id="tfkfn" occurs="1716">töluorð frumtala karlkyn fleirtala nefnifall beygjanlegt-töluorð</item>
+        <item id="tfkfo" occurs="1430">töluorð frumtala karlkyn fleirtala þolfall beygjanlegt-töluorð</item>
+        <item id="tfkfþ" occurs="253">töluorð frumtala karlkyn fleirtala þágufall beygjanlegt-töluorð</item>
+        <item id="tfvee" occurs="14">töluorð frumtala kvenkyn eintala eignarfall beygjanlegt-töluorð</item>
+        <item id="tfven" occurs="80">töluorð frumtala kvenkyn eintala nefnifall beygjanlegt-töluorð</item>
+        <item id="tfveo" occurs="171">töluorð frumtala kvenkyn eintala þolfall beygjanlegt-töluorð</item>
+        <item id="tfveþ" occurs="85">töluorð frumtala kvenkyn eintala þágufall beygjanlegt-töluorð</item>
+        <item id="tfvfe" occurs="67">töluorð frumtala kvenkyn fleirtala eignarfall beygjanlegt-töluorð</item>
+        <item id="tfvfn" occurs="145">töluorð frumtala kvenkyn fleirtala nefnifall beygjanlegt-töluorð</item>
+        <item id="tfvfo" occurs="346">töluorð frumtala kvenkyn fleirtala þolfall beygjanlegt-töluorð</item>
+        <item id="tfvfþ" occurs="170">töluorð frumtala kvenkyn fleirtala þágufall beygjanlegt-töluorð</item>
+        <item id="to" occurs="15">töluorð fjöldatala-undan-100-og-1000</item>
+        <item id="x" occurs="558">ógreint</item>
+       </list>
+      </p>
+      <p>
+       <list gi="c" n="type">
+        <item id="!" occurs="3">punctuation</item>
+        <item id="(" occurs="101">punctuation</item>
+        <item id=")" occurs="101">punctuation</item>
+        <item id="+" occurs="7">punctuation</item>
+        <item id="," occurs="26134">punctuation</item>
+        <item id="-" occurs="89">punctuation</item>
+        <item id="." occurs="97293">punctuation</item>
+        <item id=".." occurs="3">punctuation</item>
+        <item id="..." occurs="168">punctuation</item>
+        <item id="...." occurs="3">punctuation</item>
+        <item id=":" occurs="11640">punctuation</item>
+        <item id=";" occurs="1031">punctuation</item>
+        <item id="?" occurs="2496">punctuation</item>
+        <item id="[" occurs="21">punctuation</item>
+        <item id="]" occurs="21">punctuation</item>
+        <item id="_" occurs="2">punctuation</item>
+        <item id="«" occurs="18345">punctuation</item>
+        <item id="»" occurs="18360">punctuation</item>
+       </list>
+       <list>
+        <item id="aa" occurs="165580">adverb</item>
+        <item id="aae" occurs="2483">adverb superlative-degree</item>
+        <item id="aam" occurs="5540">adverb comparative-degree</item>
+        <item id="ae" occurs="22463">preposition governs-genetive</item>
+        <item id="ao" occurs="50587">preposition governs-accusative</item>
+        <item id="as" occurs="43">abbreviation</item>
+        <item id="au" occurs="300">exclamation</item>
+        <item id="aþ" occurs="64648">preposition governs-dative</item>
+        <item id="aþe" occurs="187">superlative-degree</item>
+        <item id="aþm" occurs="190">comparative-degree</item>
+        <item id="c" occurs="162096">conjunction</item>
+        <item id="cn" occurs="11366">conjunction infinitive-marke</item>
+        <item id="ct" occurs="12571">conjunction relative-conjunction</item>
+        <item id="e" occurs="111">foreign-word</item>
+        <item id="fahee" occurs="477">pronoun demonstrative-pronoun neutral singular genetive</item>
+        <item id="fahen" occurs="2458">pronoun demonstrative-pronoun neutral singular nominative</item>
+        <item id="faheo" occurs="3304">pronoun demonstrative-pronoun neutral singular accusative</item>
+        <item id="faheþ" occurs="1909">pronoun demonstrative-pronoun neutral singular dative</item>
+        <item id="fahfe" occurs="60">pronoun demonstrative-pronoun neutral plural genetive</item>
+        <item id="fahfn" occurs="418">pronoun demonstrative-pronoun neutral plural nominative</item>
+        <item id="fahfo" occurs="828">pronoun demonstrative-pronoun neutral plural accusative</item>
+        <item id="fahfþ" occurs="416">pronoun demonstrative-pronoun neutral plural dative</item>
+        <item id="fakee" occurs="222">pronoun demonstrative-pronoun masculine singular genetive</item>
+        <item id="faken" occurs="2325">pronoun demonstrative-pronoun masculine singular nominative</item>
+        <item id="fakeo" occurs="2409">pronoun demonstrative-pronoun masculine singular accusative</item>
+        <item id="fakeþ" occurs="932">pronoun demonstrative-pronoun masculine singular dative</item>
+        <item id="fakfe" occurs="384">pronoun demonstrative-pronoun masculine plural genetive</item>
+        <item id="fakfn" occurs="1432">pronoun demonstrative-pronoun masculine plural nominative</item>
+        <item id="fakfo" occurs="638">pronoun demonstrative-pronoun masculine plural accusative</item>
+        <item id="fakfþ" occurs="710">pronoun demonstrative-pronoun masculine plural dative</item>
+        <item id="favee" occurs="200">pronoun demonstrative-pronoun feminie singular genetive</item>
+        <item id="faven" occurs="789">pronoun demonstrative-pronoun feminie singular nominative</item>
+        <item id="faveo" occurs="1271">pronoun demonstrative-pronoun feminie singular accusative</item>
+        <item id="faveþ" occurs="509">pronoun demonstrative-pronoun feminie singular dative</item>
+        <item id="favfe" occurs="24">pronoun demonstrative-pronoun feminie plural genetive</item>
+        <item id="favfn" occurs="130">pronoun demonstrative-pronoun feminie plural nominative</item>
+        <item id="favfo" occurs="232">pronoun demonstrative-pronoun feminie plural accusative</item>
+        <item id="favfþ" occurs="151">pronoun demonstrative-pronoun feminie plural dative</item>
+        <item id="fbhee" occurs="35">pronoun indefinite-demonstrative-pronoun neutral singular genetive</item>
+        <item id="fbhen" occurs="303">pronoun indefinite-demonstrative-pronoun neutral singular nominative</item>
+        <item id="fbheo" occurs="646">pronoun indefinite-demonstrative-pronoun neutral singular accusative</item>
+        <item id="fbheþ" occurs="199">pronoun indefinite-demonstrative-pronoun neutral singular dative</item>
+        <item id="fbhfe" occurs="8">pronoun indefinite-demonstrative-pronoun neutral plural genetive</item>
+        <item id="fbhfn" occurs="52">pronoun indefinite-demonstrative-pronoun neutral plural nominative</item>
+        <item id="fbhfo" occurs="70">pronoun indefinite-demonstrative-pronoun neutral plural accusative</item>
+        <item id="fbhfþ" occurs="41">pronoun indefinite-demonstrative-pronoun neutral plural dative</item>
+        <item id="fbkee" occurs="65">pronoun indefinite-demonstrative-pronoun masculine singular genetive</item>
+        <item id="fbken" occurs="550">pronoun indefinite-demonstrative-pronoun masculine singular nominative</item>
+        <item id="fbkeo" occurs="273">pronoun indefinite-demonstrative-pronoun masculine singular accusative</item>
+        <item id="fbkeþ" occurs="138">pronoun indefinite-demonstrative-pronoun masculine singular dative</item>
+        <item id="fbkfe" occurs="27">pronoun indefinite-demonstrative-pronoun masculine plural genetive</item>
+        <item id="fbkfn" occurs="146">pronoun indefinite-demonstrative-pronoun masculine plural nominative</item>
+        <item id="fbkfo" occurs="61">pronoun indefinite-demonstrative-pronoun masculine plural accusative</item>
+        <item id="fbkfþ" occurs="30">pronoun indefinite-demonstrative-pronoun masculine plural dative</item>
+        <item id="fbvee" occurs="12">pronoun indefinite-demonstrative-pronoun feminie singular genetive</item>
+        <item id="fbven" occurs="51">pronoun indefinite-demonstrative-pronoun feminie singular nominative</item>
+        <item id="fbveo" occurs="209">pronoun indefinite-demonstrative-pronoun feminie singular accusative</item>
+        <item id="fbveþ" occurs="29">pronoun indefinite-demonstrative-pronoun feminie singular dative</item>
+        <item id="fbvfe" occurs="4">pronoun indefinite-demonstrative-pronoun feminie plural genetive</item>
+        <item id="fbvfn" occurs="35">pronoun indefinite-demonstrative-pronoun feminie plural nominative</item>
+        <item id="fbvfo" occurs="33">pronoun indefinite-demonstrative-pronoun feminie plural accusative</item>
+        <item id="fbvfþ" occurs="15">pronoun indefinite-demonstrative-pronoun feminie plural dative</item>
+        <item id="fehee" occurs="356">pronoun possessive-pronoun neutral singular genetive</item>
+        <item id="fehen" occurs="340">pronoun possessive-pronoun neutral singular nominative</item>
+        <item id="feheo" occurs="1714">pronoun possessive-pronoun neutral singular accusative</item>
+        <item id="feheþ" occurs="1240">pronoun possessive-pronoun neutral singular dative</item>
+        <item id="fehfe" occurs="225">pronoun possessive-pronoun neutral plural genetive</item>
+        <item id="fehfn" occurs="69">pronoun possessive-pronoun neutral plural nominative</item>
+        <item id="fehfo" occurs="927">pronoun possessive-pronoun neutral plural accusative</item>
+        <item id="fehfþ" occurs="382">pronoun possessive-pronoun neutral plural dative</item>
+        <item id="fekee" occurs="871">pronoun possessive-pronoun masculine singular genetive</item>
+        <item id="feken" occurs="826">pronoun possessive-pronoun masculine singular nominative</item>
+        <item id="fekeo" occurs="2174">pronoun possessive-pronoun masculine singular accusative</item>
+        <item id="fekeþ" occurs="1245">pronoun possessive-pronoun masculine singular dative</item>
+        <item id="fekfe" occurs="395">pronoun possessive-pronoun masculine plural genetive</item>
+        <item id="fekfn" occurs="282">pronoun possessive-pronoun masculine plural nominative</item>
+        <item id="fekfo" occurs="1049">pronoun possessive-pronoun masculine plural accusative</item>
+        <item id="fekfþ" occurs="765">pronoun possessive-pronoun masculine plural dative</item>
+        <item id="fevee" occurs="372">pronoun possessive-pronoun feminie singular genetive</item>
+        <item id="feven" occurs="338">pronoun possessive-pronoun feminie singular nominative</item>
+        <item id="feveo" occurs="1641">pronoun possessive-pronoun feminie singular accusative</item>
+        <item id="feveþ" occurs="897">pronoun possessive-pronoun feminie singular dative</item>
+        <item id="fevfe" occurs="64">pronoun possessive-pronoun feminie plural genetive</item>
+        <item id="fevfn" occurs="25">pronoun possessive-pronoun feminie plural nominative</item>
+        <item id="fevfo" occurs="356">pronoun possessive-pronoun feminie plural accusative</item>
+        <item id="fevfþ" occurs="158">pronoun possessive-pronoun feminie plural dative</item>
+        <item id="fohee" occurs="400">pronoun indefinite-pronoun neutral singular genetive</item>
+        <item id="fohen" occurs="2397">pronoun indefinite-pronoun neutral singular nominative</item>
+        <item id="foheo" occurs="2523">pronoun indefinite-pronoun neutral singular accusative</item>
+        <item id="foheþ" occurs="1730">pronoun indefinite-pronoun neutral singular dative</item>
+        <item id="fohfe" occurs="156">pronoun indefinite-pronoun neutral plural genetive</item>
+        <item id="fohfn" occurs="543">pronoun indefinite-pronoun neutral plural nominative</item>
+        <item id="fohfo" occurs="663">pronoun indefinite-pronoun neutral plural accusative</item>
+        <item id="fohfþ" occurs="353">pronoun indefinite-pronoun neutral plural dative</item>
+        <item id="fokee" occurs="368">pronoun indefinite-pronoun masculine singular genetive</item>
+        <item id="foken" occurs="3115">pronoun indefinite-pronoun masculine singular nominative</item>
+        <item id="fokeo" occurs="2895">pronoun indefinite-pronoun masculine singular accusative</item>
+        <item id="fokeþ" occurs="1066">pronoun indefinite-pronoun masculine singular dative</item>
+        <item id="fokfe" occurs="742">pronoun indefinite-pronoun masculine plural genetive</item>
+        <item id="fokfn" occurs="4424">pronoun indefinite-pronoun masculine plural nominative</item>
+        <item id="fokfo" occurs="1509">pronoun indefinite-pronoun masculine plural accusative</item>
+        <item id="fokfþ" occurs="1424">pronoun indefinite-pronoun masculine plural dative</item>
+        <item id="fovee" occurs="94">pronoun indefinite-pronoun feminie singular genetive</item>
+        <item id="foven" occurs="551">pronoun indefinite-pronoun feminie singular nominative</item>
+        <item id="foveo" occurs="1161">pronoun indefinite-pronoun feminie singular accusative</item>
+        <item id="foveþ" occurs="405">pronoun indefinite-pronoun feminie singular dative</item>
+        <item id="fovfe" occurs="82">pronoun indefinite-pronoun feminie plural genetive</item>
+        <item id="fovfn" occurs="237">pronoun indefinite-pronoun feminie plural nominative</item>
+        <item id="fovfo" occurs="444">pronoun indefinite-pronoun feminie plural accusative</item>
+        <item id="fovfþ" occurs="208">pronoun indefinite-pronoun feminie plural dative</item>
+        <item id="fp1ee" occurs="186">pronoun personal-pronoun 1st.person singular genetive</item>
+        <item id="fp1en" occurs="12434">pronoun personal-pronoun 1st.person singular nominative</item>
+        <item id="fp1eo" occurs="1199">pronoun personal-pronoun 1st.person singular accusative</item>
+        <item id="fp1eþ" occurs="4207">pronoun personal-pronoun 1st.person singular dative</item>
+        <item id="fp1fe" occurs="172">pronoun personal-pronoun 1st.person plural genetive</item>
+        <item id="fp1fn" occurs="3315">pronoun personal-pronoun 1st.person plural nominative</item>
+        <item id="fp1fo" occurs="393">pronoun personal-pronoun 1st.person plural accusative</item>
+        <item id="fp1fþ" occurs="1152">pronoun personal-pronoun 1st.person plural dative</item>
+        <item id="fp2ee" occurs="167">pronoun personal-pronoun 2nd.person singular genetive</item>
+        <item id="fp2en" occurs="7044">pronoun personal-pronoun 2nd.person singular nominative</item>
+        <item id="fp2eo" occurs="1257">pronoun personal-pronoun 2nd.person singular accusative</item>
+        <item id="fp2eþ" occurs="3823">pronoun personal-pronoun 2nd.person singular dative</item>
+        <item id="fp2fe" occurs="165">pronoun personal-pronoun 2nd.person plural genetive</item>
+        <item id="fp2fn" occurs="1557">pronoun personal-pronoun 2nd.person plural nominative</item>
+        <item id="fp2fo" occurs="262">pronoun personal-pronoun 2nd.person plural accusative</item>
+        <item id="fp2fþ" occurs="1099">pronoun personal-pronoun 2nd.person plural dative</item>
+        <item id="fphee" occurs="2168">pronoun personal-pronoun neutral singular genetive</item>
+        <item id="fphen" occurs="8914">pronoun personal-pronoun neutral singular nominative</item>
+        <item id="fpheo" occurs="5933">pronoun personal-pronoun neutral singular accusative</item>
+        <item id="fpheþ" occurs="6937">pronoun personal-pronoun neutral singular dative</item>
+        <item id="fphfe" occurs="1485">pronoun personal-pronoun neutral plural genetive</item>
+        <item id="fphfn" occurs="1658">pronoun personal-pronoun neutral plural nominative</item>
+        <item id="fphfo" occurs="273">pronoun personal-pronoun neutral plural accusative</item>
+        <item id="fphfþ" occurs="1236">pronoun personal-pronoun neutral plural dative</item>
+        <item id="fpkee" occurs="6977">pronoun personal-pronoun masculine singular genetive</item>
+        <item id="fpken" occurs="33823">pronoun personal-pronoun masculine singular nominative</item>
+        <item id="fpkeo" occurs="6022">pronoun personal-pronoun masculine singular accusative</item>
+        <item id="fpkeþ" occurs="12907">pronoun personal-pronoun masculine singular dative</item>
+        <item id="fpkfe" occurs="2574">pronoun personal-pronoun masculine plural genetive</item>
+        <item id="fpkfn" occurs="20002">pronoun personal-pronoun masculine plural nominative</item>
+        <item id="fpkfo" occurs="1769">pronoun personal-pronoun masculine plural accusative</item>
+        <item id="fpkfþ" occurs="4161">pronoun personal-pronoun masculine plural dative</item>
+        <item id="fpvee" occurs="824">pronoun personal-pronoun feminie singular genetive</item>
+        <item id="fpven" occurs="4166">pronoun personal-pronoun feminie singular nominative</item>
+        <item id="fpveo" occurs="884">pronoun personal-pronoun feminie singular accusative</item>
+        <item id="fpveþ" occurs="1389">pronoun personal-pronoun feminie singular dative</item>
+        <item id="fpvfe" occurs="115">pronoun personal-pronoun feminie plural genetive</item>
+        <item id="fpvfn" occurs="331">pronoun personal-pronoun feminie plural nominative</item>
+        <item id="fpvfo" occurs="101">pronoun personal-pronoun feminie plural accusative</item>
+        <item id="fpvfþ" occurs="462">pronoun personal-pronoun feminie plural dative</item>
+        <item id="fshee" occurs="83">pronoun interrogative-pronoun neutral singular genetive</item>
+        <item id="fshen" occurs="1051">pronoun interrogative-pronoun neutral singular nominative</item>
+        <item id="fsheo" occurs="781">pronoun interrogative-pronoun neutral singular accusative</item>
+        <item id="fsheþ" occurs="87">pronoun interrogative-pronoun neutral singular dative</item>
+        <item id="fshfn" occurs="16">pronoun interrogative-pronoun neutral plural nominative</item>
+        <item id="fskee" occurs="24">pronoun interrogative-pronoun masculine singular genetive</item>
+        <item id="fsken" occurs="495">pronoun interrogative-pronoun masculine singular nominative</item>
+        <item id="fskeo" occurs="23">pronoun interrogative-pronoun masculine singular accusative</item>
+        <item id="fskeþ" occurs="4">pronoun interrogative-pronoun masculine singular dative</item>
+        <item id="fskfe" occurs="5">pronoun interrogative-pronoun masculine plural genetive</item>
+        <item id="fskfn" occurs="169">pronoun interrogative-pronoun masculine plural nominative</item>
+        <item id="fskfo" occurs="1">pronoun interrogative-pronoun masculine plural accusative</item>
+        <item id="fskfþ" occurs="3">pronoun interrogative-pronoun masculine plural dative</item>
+        <item id="fsvee" occurs="3">pronoun interrogative-pronoun feminie singular genetive</item>
+        <item id="fsven" occurs="21">pronoun interrogative-pronoun feminie singular nominative</item>
+        <item id="fsveo" occurs="3">pronoun interrogative-pronoun feminie singular accusative</item>
+        <item id="fsvfn" occurs="10">pronoun interrogative-pronoun feminie plural nominative</item>
+        <item id="ghee" occurs="60">article neutral singular genetive</item>
+        <item id="ghen" occurs="480">article neutral singular nominative</item>
+        <item id="gheo" occurs="378">article neutral singular accusative</item>
+        <item id="gheþ" occurs="54">article neutral singular dative</item>
+        <item id="ghfe" occurs="1">article neutral plural genetive</item>
+        <item id="ghfn" occurs="4">article neutral plural nominative</item>
+        <item id="ghfo" occurs="54">article neutral plural accusative</item>
+        <item id="ghfþ" occurs="26">article neutral plural dative</item>
+        <item id="gkee" occurs="506">article masculine singular genetive</item>
+        <item id="gken" occurs="1833">article masculine singular nominative</item>
+        <item id="gkeo" occurs="592">article masculine singular accusative</item>
+        <item id="gkeþ" occurs="188">article masculine singular dative</item>
+        <item id="gkfe" occurs="30">article masculine plural genetive</item>
+        <item id="gkfn" occurs="166">article masculine plural nominative</item>
+        <item id="gkfo" occurs="68">article masculine plural accusative</item>
+        <item id="gkfþ" occurs="18">article masculine plural dative</item>
+        <item id="gvee" occurs="35">article feminie singular genetive</item>
+        <item id="gven" occurs="339">article feminie singular nominative</item>
+        <item id="gveo" occurs="179">article feminie singular accusative</item>
+        <item id="gveþ" occurs="73">article feminie singular dative</item>
+        <item id="gvfe" occurs="4">article feminie plural genetive</item>
+        <item id="gvfn" occurs="21">article feminie plural nominative</item>
+        <item id="gvfo" occurs="2">article feminie plural accusative</item>
+        <item id="gvfþ" occurs="10">article feminie plural dative</item>
+        <item id="lheesf" occurs="501">adjective neutral singular genetive strong-declension positive-degree</item>
+        <item id="lheeve" occurs="6">adjective neutral singular genetive weak-declension superlative-degree</item>
+        <item id="lheevf" occurs="66">adjective neutral singular genetive weak-declension positive-degree</item>
+        <item id="lheevm" occurs="36">adjective neutral singular genetive weak-declension comparative-degree</item>
+        <item id="lhenof" occurs="66">adjective neutral singular nominative indeclined positive-degree</item>
+        <item id="lhense" occurs="564">adjective neutral singular nominative strong-declension superlative-degree</item>
+        <item id="lhensf" occurs="7617">adjective neutral singular nominative strong-declension positive-degree</item>
+        <item id="lhenve" occurs="283">adjective neutral singular nominative weak-declension superlative-degree</item>
+        <item id="lhenvf" occurs="172">adjective neutral singular nominative weak-declension positive-degree</item>
+        <item id="lhenvm" occurs="954">adjective neutral singular nominative weak-declension comparative-degree</item>
+        <item id="lheoof" occurs="14">adjective neutral singular accusative indeclined positive-degree</item>
+        <item id="lheose" occurs="28">adjective neutral singular accusative strong-declension superlative-degree</item>
+        <item id="lheosf" occurs="3326">adjective neutral singular accusative strong-declension positive-degree</item>
+        <item id="lheove" occurs="135">adjective neutral singular accusative weak-declension superlative-degree</item>
+        <item id="lheovf" occurs="169">adjective neutral singular accusative weak-declension positive-degree</item>
+        <item id="lheovm" occurs="670">adjective neutral singular accusative weak-declension comparative-degree</item>
+        <item id="lheþof" occurs="31">adjective neutral singular dative indeclined positive-degree</item>
+        <item id="lheþse" occurs="62">adjective neutral singular dative strong-declension superlative-degree</item>
+        <item id="lheþsf" occurs="2020">adjective neutral singular dative strong-declension positive-degree</item>
+        <item id="lheþve" occurs="44">adjective neutral singular dative weak-declension superlative-degree</item>
+        <item id="lheþvf" occurs="98">adjective neutral singular dative weak-declension positive-degree</item>
+        <item id="lheþvm" occurs="113">adjective neutral singular dative weak-declension comparative-degree</item>
+        <item id="lhfesf" occurs="72">adjective neutral plural genetive strong-declension positive-degree</item>
+        <item id="lhfevf" occurs="7">adjective neutral plural genetive weak-declension positive-degree</item>
+        <item id="lhfevm" occurs="9">adjective neutral plural genetive weak-declension comparative-degree</item>
+        <item id="lhfnof" occurs="5">adjective neutral plural nominative indeclined positive-degree</item>
+        <item id="lhfnse" occurs="65">adjective neutral plural nominative strong-declension superlative-degree</item>
+        <item id="lhfnsf" occurs="993">adjective neutral plural nominative strong-declension positive-degree</item>
+        <item id="lhfnve" occurs="10">adjective neutral plural nominative weak-declension superlative-degree</item>
+        <item id="lhfnvf" occurs="13">adjective neutral plural nominative weak-declension positive-degree</item>
+        <item id="lhfnvm" occurs="98">adjective neutral plural nominative weak-declension comparative-degree</item>
+        <item id="lhfoof" occurs="6">adjective neutral plural accusative indeclined positive-degree</item>
+        <item id="lhfose" occurs="16">adjective neutral plural accusative strong-declension superlative-degree</item>
+        <item id="lhfosf" occurs="619">adjective neutral plural accusative strong-declension positive-degree</item>
+        <item id="lhfove" occurs="25">adjective neutral plural accusative weak-declension superlative-degree</item>
+        <item id="lhfovf" occurs="31">adjective neutral plural accusative weak-declension positive-degree</item>
+        <item id="lhfovm" occurs="63">adjective neutral plural accusative weak-declension comparative-degree</item>
+        <item id="lhfþof" occurs="3">adjective neutral plural dative indeclined positive-degree</item>
+        <item id="lhfþse" occurs="28">adjective neutral plural dative strong-declension superlative-degree</item>
+        <item id="lhfþsf" occurs="283">adjective neutral plural dative strong-declension positive-degree</item>
+        <item id="lhfþve" occurs="1">adjective neutral plural dative weak-declension superlative-degree</item>
+        <item id="lhfþvf" occurs="2">adjective neutral plural dative weak-declension positive-degree</item>
+        <item id="lhfþvm" occurs="12">adjective neutral plural dative weak-declension comparative-degree</item>
+        <item id="lkeesf" occurs="264">adjective masculine singular genetive strong-declension positive-degree</item>
+        <item id="lkeeve" occurs="11">adjective masculine singular genetive weak-declension superlative-degree</item>
+        <item id="lkeevf" occurs="717">adjective masculine singular genetive weak-declension positive-degree</item>
+        <item id="lkeevm" occurs="21">adjective masculine singular genetive weak-declension comparative-degree</item>
+        <item id="lkenof" occurs="105">adjective masculine singular nominative indeclined positive-degree</item>
+        <item id="lkense" occurs="938">adjective masculine singular nominative strong-declension superlative-degree</item>
+        <item id="lkensf" occurs="13365">adjective masculine singular nominative strong-declension positive-degree</item>
+        <item id="lkenve" occurs="705">adjective masculine singular nominative weak-declension superlative-degree</item>
+        <item id="lkenvf" occurs="1835">adjective masculine singular nominative weak-declension positive-degree</item>
+        <item id="lkenvm" occurs="685">adjective masculine singular nominative weak-declension comparative-degree</item>
+        <item id="lkeoof" occurs="19">adjective masculine singular accusative indeclined positive-degree</item>
+        <item id="lkeose" occurs="89">adjective masculine singular accusative strong-declension superlative-degree</item>
+        <item id="lkeosf" occurs="2641">adjective masculine singular accusative strong-declension positive-degree</item>
+        <item id="lkeove" occurs="210">adjective masculine singular accusative weak-declension superlative-degree</item>
+        <item id="lkeovf" occurs="680">adjective masculine singular accusative weak-declension positive-degree</item>
+        <item id="lkeovm" occurs="89">adjective masculine singular accusative weak-declension comparative-degree</item>
+        <item id="lkeþof" occurs="2">adjective masculine singular dative indeclined positive-degree</item>
+        <item id="lkeþse" occurs="35">adjective masculine singular dative strong-declension superlative-degree</item>
+        <item id="lkeþsf" occurs="897">adjective masculine singular dative strong-declension positive-degree</item>
+        <item id="lkeþve" occurs="50">adjective masculine singular dative weak-declension superlative-degree</item>
+        <item id="lkeþvf" occurs="248">adjective masculine singular dative weak-declension positive-degree</item>
+        <item id="lkeþvm" occurs="28">adjective masculine singular dative weak-declension comparative-degree</item>
+        <item id="lkfeof" occurs="8">adjective masculine plural genetive indeclined positive-degree</item>
+        <item id="lkfese" occurs="31">adjective masculine plural genetive strong-declension superlative-degree</item>
+        <item id="lkfesf" occurs="447">adjective masculine plural genetive strong-declension positive-degree</item>
+        <item id="lkfeve" occurs="16">adjective masculine plural genetive weak-declension superlative-degree</item>
+        <item id="lkfevf" occurs="23">adjective masculine plural genetive weak-declension positive-degree</item>
+        <item id="lkfevm" occurs="27">adjective masculine plural genetive weak-declension comparative-degree</item>
+        <item id="lkfnof" occurs="73">adjective masculine plural nominative indeclined positive-degree</item>
+        <item id="lkfnse" occurs="416">adjective masculine plural nominative strong-declension superlative-degree</item>
+        <item id="lkfnsf" occurs="4790">adjective masculine plural nominative strong-declension positive-degree</item>
+        <item id="lkfnve" occurs="130">adjective masculine plural nominative weak-declension superlative-degree</item>
+        <item id="lkfnvf" occurs="61">adjective masculine plural nominative weak-declension positive-degree</item>
+        <item id="lkfnvm" occurs="426">adjective masculine plural nominative weak-declension comparative-degree</item>
+        <item id="lkfoof" occurs="4">adjective masculine plural accusative indeclined positive-degree</item>
+        <item id="lkfose" occurs="44">adjective masculine plural accusative strong-declension superlative-degree</item>
+        <item id="lkfosf" occurs="1111">adjective masculine plural accusative strong-declension positive-degree</item>
+        <item id="lkfove" occurs="48">adjective masculine plural accusative weak-declension superlative-degree</item>
+        <item id="lkfovf" occurs="34">adjective masculine plural accusative weak-declension positive-degree</item>
+        <item id="lkfovm" occurs="118">adjective masculine plural accusative weak-declension comparative-degree</item>
+        <item id="lkfþof" occurs="13">adjective masculine plural dative indeclined positive-degree</item>
+        <item id="lkfþse" occurs="95">adjective masculine plural dative strong-declension superlative-degree</item>
+        <item id="lkfþsf" occurs="652">adjective masculine plural dative strong-declension positive-degree</item>
+        <item id="lkfþsm" occurs="36">adjective masculine plural dative strong-declension comparative-degree</item>
+        <item id="lkfþve" occurs="15">adjective masculine plural dative weak-declension superlative-degree</item>
+        <item id="lkfþvf" occurs="13">adjective masculine plural dative weak-declension positive-degree</item>
+        <item id="lkfþvm" occurs="30">adjective masculine plural dative weak-declension comparative-degree</item>
+        <item id="lveese" occurs="1">adjective feminie singular genetive strong-declension superlative-degree</item>
+        <item id="lveesf" occurs="133">adjective feminie singular genetive strong-declension positive-degree</item>
+        <item id="lveeve" occurs="6">adjective feminie singular genetive weak-declension superlative-degree</item>
+        <item id="lveevf" occurs="30">adjective feminie singular genetive weak-declension positive-degree</item>
+        <item id="lveevm" occurs="23">adjective feminie singular genetive weak-declension comparative-degree</item>
+        <item id="lvenof" occurs="37">adjective feminie singular nominative indeclined positive-degree</item>
+        <item id="lvense" occurs="151">adjective feminie singular nominative strong-declension superlative-degree</item>
+        <item id="lvensf" occurs="3024">adjective feminie singular nominative strong-declension positive-degree</item>
+        <item id="lvenve" occurs="199">adjective feminie singular nominative weak-declension superlative-degree</item>
+        <item id="lvenvf" occurs="150">adjective feminie singular nominative weak-declension positive-degree</item>
+        <item id="lvenvm" occurs="364">adjective feminie singular nominative weak-declension comparative-degree</item>
+        <item id="lveoof" occurs="5">adjective feminie singular accusative indeclined positive-degree</item>
+        <item id="lveose" occurs="19">adjective feminie singular accusative strong-declension superlative-degree</item>
+        <item id="lveosf" occurs="1576">adjective feminie singular accusative strong-declension positive-degree</item>
+        <item id="lveove" occurs="78">adjective feminie singular accusative weak-declension superlative-degree</item>
+        <item id="lveovf" occurs="108">adjective feminie singular accusative weak-declension positive-degree</item>
+        <item id="lveovm" occurs="138">adjective feminie singular accusative weak-declension comparative-degree</item>
+        <item id="lveþof" occurs="4">adjective feminie singular dative indeclined positive-degree</item>
+        <item id="lveþse" occurs="8">adjective feminie singular dative strong-declension superlative-degree</item>
+        <item id="lveþsf" occurs="483">adjective feminie singular dative strong-declension positive-degree</item>
+        <item id="lveþve" occurs="118">adjective feminie singular dative weak-declension superlative-degree</item>
+        <item id="lveþvf" occurs="68">adjective feminie singular dative weak-declension positive-degree</item>
+        <item id="lveþvm" occurs="40">adjective feminie singular dative weak-declension comparative-degree</item>
+        <item id="lvfesf" occurs="40">adjective feminie plural genetive strong-declension positive-degree</item>
+        <item id="lvfeve" occurs="3">adjective feminie plural genetive weak-declension superlative-degree</item>
+        <item id="lvfevf" occurs="5">adjective feminie plural genetive weak-declension positive-degree</item>
+        <item id="lvfevm" occurs="21">adjective feminie plural genetive weak-declension comparative-degree</item>
+        <item id="lvfnof" occurs="5">adjective feminie plural nominative indeclined positive-degree</item>
+        <item id="lvfnse" occurs="36">adjective feminie plural nominative strong-declension superlative-degree</item>
+        <item id="lvfnsf" occurs="654">adjective feminie plural nominative strong-declension positive-degree</item>
+        <item id="lvfnve" occurs="21">adjective feminie plural nominative weak-declension superlative-degree</item>
+        <item id="lvfnvf" occurs="9">adjective feminie plural nominative weak-declension positive-degree</item>
+        <item id="lvfnvm" occurs="11">adjective feminie plural nominative weak-declension comparative-degree</item>
+        <item id="lvfoof" occurs="1">adjective feminie plural accusative indeclined positive-degree</item>
+        <item id="lvfose" occurs="12">adjective feminie plural accusative strong-declension superlative-degree</item>
+        <item id="lvfosf" occurs="583">adjective feminie plural accusative strong-declension positive-degree</item>
+        <item id="lvfove" occurs="2">adjective feminie plural accusative weak-declension superlative-degree</item>
+        <item id="lvfovf" occurs="6">adjective feminie plural accusative weak-declension positive-degree</item>
+        <item id="lvfovm" occurs="36">adjective feminie plural accusative weak-declension comparative-degree</item>
+        <item id="lvfþof" occurs="1">adjective feminie plural dative indeclined positive-degree</item>
+        <item id="lvfþse" occurs="5">adjective feminie plural dative strong-declension superlative-degree</item>
+        <item id="lvfþsf" occurs="201">adjective feminie plural dative strong-declension positive-degree</item>
+        <item id="lvfþve" occurs="3">adjective feminie plural dative weak-declension superlative-degree</item>
+        <item id="lvfþvf" occurs="8">adjective feminie plural dative weak-declension positive-degree</item>
+        <item id="lvfþvm" occurs="12">adjective feminie plural dative weak-declension comparative-degree</item>
+        <item id="nhee" occurs="4929">noun neutral singular genetive</item>
+        <item id="nhee-s" occurs="1733">noun neutral singular genetive proper-noun</item>
+        <item id="nheeg" occurs="476">noun neutral singular genetive with-suffixed-definite-article</item>
+        <item id="nheegs" occurs="2">noun neutral singular genetive with-suffixed-definite-article proper-noun</item>
+        <item id="nhen" occurs="6865">noun neutral singular nominative</item>
+        <item id="nhen-s" occurs="337">noun neutral singular nominative proper-noun</item>
+        <item id="nheng" occurs="1737">noun neutral singular nominative with-suffixed-definite-article</item>
+        <item id="nhengs" occurs="12">noun neutral singular nominative with-suffixed-definite-article proper-noun</item>
+        <item id="nheo" occurs="17513">noun neutral singular accusative</item>
+        <item id="nheo-s" occurs="1715">noun neutral singular accusative proper-noun</item>
+        <item id="nheog" occurs="6504">noun neutral singular accusative with-suffixed-definite-article</item>
+        <item id="nheogs" occurs="5">noun neutral singular accusative with-suffixed-definite-article proper-noun</item>
+        <item id="nheþ" occurs="11568">noun neutral singular dative</item>
+        <item id="nheþ-s" occurs="3236">noun neutral singular dative proper-noun</item>
+        <item id="nheþg" occurs="2948">noun neutral singular dative with-suffixed-definite-article</item>
+        <item id="nheþgs" occurs="4">noun neutral singular dative with-suffixed-definite-article proper-noun</item>
+        <item id="nhfe" occurs="2599">noun neutral plural genetive</item>
+        <item id="nhfe-s" occurs="24">noun neutral plural genetive proper-noun</item>
+        <item id="nhfeg" occurs="167">noun neutral plural genetive with-suffixed-definite-article</item>
+        <item id="nhfn" occurs="2698">noun neutral plural nominative</item>
+        <item id="nhfn-s" occurs="19">noun neutral plural nominative proper-noun</item>
+        <item id="nhfng" occurs="418">noun neutral plural nominative with-suffixed-definite-article</item>
+        <item id="nhfngs" occurs="2">noun neutral plural nominative with-suffixed-definite-article proper-noun</item>
+        <item id="nhfo" occurs="5671">noun neutral plural accusative</item>
+        <item id="nhfo-s" occurs="111">noun neutral plural accusative proper-noun</item>
+        <item id="nhfog" occurs="1131">noun neutral plural accusative with-suffixed-definite-article</item>
+        <item id="nhfogs" occurs="4">noun neutral plural accusative with-suffixed-definite-article proper-noun</item>
+        <item id="nhfþ" occurs="4240">noun neutral plural dative</item>
+        <item id="nhfþ-s" occurs="125">noun neutral plural dative proper-noun</item>
+        <item id="nhfþg" occurs="347">noun neutral plural dative with-suffixed-definite-article</item>
+        <item id="nkee" occurs="8419">noun masculine singular genetive</item>
+        <item id="nkee-s" occurs="15991">noun masculine singular genetive proper-noun</item>
+        <item id="nkeeg" occurs="619">noun masculine singular genetive with-suffixed-definite-article</item>
+        <item id="nken" occurs="29745">noun masculine singular nominative</item>
+        <item id="nken-s" occurs="66989">noun masculine singular nominative proper-noun</item>
+        <item id="nkeng" occurs="2029">noun masculine singular nominative with-suffixed-definite-article</item>
+        <item id="nkengs" occurs="12">noun masculine singular nominative with-suffixed-definite-article proper-noun</item>
+        <item id="nkeo" occurs="18285">noun masculine singular accusative</item>
+        <item id="nkeo-s" occurs="9263">noun masculine singular accusative proper-noun</item>
+        <item id="nkeog" occurs="6012">noun masculine singular accusative with-suffixed-definite-article</item>
+        <item id="nkeogs" occurs="15">noun masculine singular accusative with-suffixed-definite-article proper-noun</item>
+        <item id="nkeþ" occurs="9472">noun masculine singular dative</item>
+        <item id="nkeþ-s" occurs="13969">noun masculine singular dative proper-noun</item>
+        <item id="nkeþg" occurs="2832">noun masculine singular dative with-suffixed-definite-article</item>
+        <item id="nkeþgs" occurs="21">noun masculine singular dative with-suffixed-definite-article proper-noun</item>
+        <item id="nkfe" occurs="4618">noun masculine plural genetive</item>
+        <item id="nkfe-s" occurs="664">noun masculine plural genetive proper-noun</item>
+        <item id="nkfeg" occurs="162">noun masculine plural genetive with-suffixed-definite-article</item>
+        <item id="nkfegs" occurs="5">noun masculine plural genetive with-suffixed-definite-article proper-noun</item>
+        <item id="nkfn" occurs="12218">noun masculine plural nominative</item>
+        <item id="nkfn-s" occurs="1322">noun masculine plural nominative proper-noun</item>
+        <item id="nkfng" occurs="495">noun masculine plural nominative with-suffixed-definite-article</item>
+        <item id="nkfngs" occurs="14">noun masculine plural nominative with-suffixed-definite-article proper-noun</item>
+        <item id="nkfo" occurs="7068">noun masculine plural accusative</item>
+        <item id="nkfo-s" occurs="822">noun masculine plural accusative proper-noun</item>
+        <item id="nkfog" occurs="589">noun masculine plural accusative with-suffixed-definite-article</item>
+        <item id="nkfogs" occurs="1">noun masculine plural accusative with-suffixed-definite-article proper-noun</item>
+        <item id="nkfþ" occurs="5473">noun masculine plural dative</item>
+        <item id="nkfþ-s" occurs="1814">noun masculine plural dative proper-noun</item>
+        <item id="nkfþg" occurs="271">noun masculine plural dative with-suffixed-definite-article</item>
+        <item id="nkfþgs" occurs="1">noun masculine plural dative with-suffixed-definite-article proper-noun</item>
+        <item id="nvee" occurs="4743">noun feminie singular genetive</item>
+        <item id="nvee-s" occurs="2900">noun feminie singular genetive proper-noun</item>
+        <item id="nveeg" occurs="457">noun feminie singular genetive with-suffixed-definite-article</item>
+        <item id="nveegs" occurs="10">noun feminie singular genetive with-suffixed-definite-article proper-noun</item>
+        <item id="nven" occurs="8203">noun feminie singular nominative</item>
+        <item id="nven-s" occurs="5484">noun feminie singular nominative proper-noun</item>
+        <item id="nveng" occurs="1108">noun feminie singular nominative with-suffixed-definite-article</item>
+        <item id="nvengs" occurs="3">noun feminie singular nominative with-suffixed-definite-article proper-noun</item>
+        <item id="nveo" occurs="12626">noun feminie singular accusative</item>
+        <item id="nveo-s" occurs="3167">noun feminie singular accusative proper-noun</item>
+        <item id="nveog" occurs="3127">noun feminie singular accusative with-suffixed-definite-article</item>
+        <item id="nveogs" occurs="103">noun feminie singular accusative with-suffixed-definite-article proper-noun</item>
+        <item id="nveþ" occurs="6922">noun feminie singular dative</item>
+        <item id="nveþ-s" occurs="3354">noun feminie singular dative proper-noun</item>
+        <item id="nveþg" occurs="1962">noun feminie singular dative with-suffixed-definite-article</item>
+        <item id="nveþgs" occurs="78">noun feminie singular dative with-suffixed-definite-article proper-noun</item>
+        <item id="nvfe" occurs="1240">noun feminie plural genetive</item>
+        <item id="nvfe-s" occurs="245">noun feminie plural genetive proper-noun</item>
+        <item id="nvfeg" occurs="89">noun feminie plural genetive with-suffixed-definite-article</item>
+        <item id="nvfn" occurs="1619">noun feminie plural nominative</item>
+        <item id="nvfn-s" occurs="33">noun feminie plural nominative proper-noun</item>
+        <item id="nvfng" occurs="98">noun feminie plural nominative with-suffixed-definite-article</item>
+        <item id="nvfo" occurs="4879">noun feminie plural accusative</item>
+        <item id="nvfo-s" occurs="231">noun feminie plural accusative proper-noun</item>
+        <item id="nvfog" occurs="424">noun feminie plural accusative with-suffixed-definite-article</item>
+        <item id="nvfþ" occurs="2942">noun feminie plural dative</item>
+        <item id="nvfþ-s" occurs="444">noun feminie plural dative proper-noun</item>
+        <item id="nvfþg" occurs="338">noun feminie plural dative with-suffixed-definite-article</item>
+        <item id="nvfþgs" occurs="1">noun feminie plural dative with-suffixed-definite-article proper-noun</item>
+        <item id="nxee-s" occurs="8">noun unspecified-gender singular genetive proper-noun</item>
+        <item id="nxen" occurs="17">noun unspecified-gender singular nominative</item>
+        <item id="nxen-s" occurs="15">noun unspecified-gender singular nominative proper-noun</item>
+        <item id="nxeo" occurs="4">noun unspecified-gender singular accusative</item>
+        <item id="nxeo-s" occurs="7">noun unspecified-gender singular accusative proper-noun</item>
+        <item id="nxeþ" occurs="1">noun unspecified-gender singular dative</item>
+        <item id="nxeþ-s" occurs="43">noun unspecified-gender singular dative proper-noun</item>
+        <item id="sbg1fn" occurs="6">verb imperative-mood active-voice 1st-person plural present-tense</item>
+        <item id="sbg2en" occurs="1406">verb imperative-mood active-voice 2nd-person singular present-tense</item>
+        <item id="sbg2fn" occurs="288">verb imperative-mood active-voice 2nd-person plural present-tense</item>
+        <item id="sbm2en" occurs="20">verb imperative-mood middle-voice 2nd-person singular present-tense</item>
+        <item id="sbm2fn" occurs="2">verb imperative-mood middle-voice 2nd-person plural present-tense</item>
+        <item id="sfg1en" occurs="9382">verb indicative-mood active-voice 1st-person singular present-tense</item>
+        <item id="sfg1eþ" occurs="1463">verb indicative-mood active-voice 1st-person singular past-tense</item>
+        <item id="sfg1fn" occurs="2830">verb indicative-mood active-voice 1st-person plural present-tense</item>
+        <item id="sfg1fþ" occurs="417">verb indicative-mood active-voice 1st-person plural past-tense</item>
+        <item id="sfg2en" occurs="5484">verb indicative-mood active-voice 2nd-person singular present-tense</item>
+        <item id="sfg2eþ" occurs="638">verb indicative-mood active-voice 2nd-person singular past-tense</item>
+        <item id="sfg2fn" occurs="1478">verb indicative-mood active-voice 2nd-person plural present-tense</item>
+        <item id="sfg2fþ" occurs="156">verb indicative-mood active-voice 2nd-person plural past-tense</item>
+        <item id="sfg3en" occurs="51357">verb indicative-mood active-voice 3rd-person singular present-tense</item>
+        <item id="sfg3eþ" occurs="109432">verb indicative-mood active-voice 3rd-person singular past-tense</item>
+        <item id="sfg3fn" occurs="10678">verb indicative-mood active-voice 3rd-person plural present-tense</item>
+        <item id="sfg3fþ" occurs="31368">verb indicative-mood active-voice 3rd-person plural past-tense</item>
+        <item id="sfm1en" occurs="192">verb indicative-mood middle-voice 1st-person singular present-tense</item>
+        <item id="sfm1eþ" occurs="151">verb indicative-mood middle-voice 1st-person singular past-tense</item>
+        <item id="sfm1fn" occurs="130">verb indicative-mood middle-voice 1st-person plural present-tense</item>
+        <item id="sfm1fþ" occurs="65">verb indicative-mood middle-voice 1st-person plural past-tense</item>
+        <item id="sfm2en" occurs="170">verb indicative-mood middle-voice 2nd-person singular present-tense</item>
+        <item id="sfm2eþ" occurs="56">verb indicative-mood middle-voice 2nd-person singular past-tense</item>
+        <item id="sfm2fn" occurs="15">verb indicative-mood middle-voice 2nd-person plural present-tense</item>
+        <item id="sfm2fþ" occurs="3">verb indicative-mood middle-voice 2nd-person plural past-tense</item>
+        <item id="sfm3en" occurs="2564">verb indicative-mood middle-voice 3rd-person singular present-tense</item>
+        <item id="sfm3eþ" occurs="6937">verb indicative-mood middle-voice 3rd-person singular past-tense</item>
+        <item id="sfm3fn" occurs="865">verb indicative-mood middle-voice 3rd-person plural present-tense</item>
+        <item id="sfm3fþ" occurs="3093">verb indicative-mood middle-voice 3rd-person plural past-tense</item>
+        <item id="slg" occurs="156">verb present-participle active-voice</item>
+        <item id="sng" occurs="45935">verb infinitive-mood active-voice</item>
+        <item id="sng--þ" occurs="1193">verb infinitive-mood active-voice past-tense</item>
+        <item id="snm" occurs="2777">verb infinitive-mood middle-voice</item>
+        <item id="ssg" occurs="12202">verb supine-mood active-voice</item>
+        <item id="ssm" occurs="1125">verb supine-mood middle-voice</item>
+        <item id="svg1en" occurs="569">verb subjunctive active-voice 1st-person singular present-tense</item>
+        <item id="svg1eþ" occurs="815">verb subjunctive active-voice 1st-person singular past-tense</item>
+        <item id="svg1fn" occurs="199">verb subjunctive active-voice 1st-person plural present-tense</item>
+        <item id="svg1fþ" occurs="124">verb subjunctive active-voice 1st-person plural past-tense</item>
+        <item id="svg2en" occurs="1267">verb subjunctive active-voice 2nd-person singular present-tense</item>
+        <item id="svg2eþ" occurs="545">verb subjunctive active-voice 2nd-person singular past-tense</item>
+        <item id="svg2fn" occurs="45">verb subjunctive active-voice 2nd-person plural present-tense</item>
+        <item id="svg2fþ" occurs="102">verb subjunctive active-voice 2nd-person plural past-tense</item>
+        <item id="svg3en" occurs="4695">verb subjunctive active-voice 3rd-person singular present-tense</item>
+        <item id="svg3eþ" occurs="9882">verb subjunctive active-voice 3rd-person singular past-tense</item>
+        <item id="svg3fn" occurs="1051">verb subjunctive active-voice 3rd-person plural present-tense</item>
+        <item id="svg3fþ" occurs="2871">verb subjunctive active-voice 3rd-person plural past-tense</item>
+        <item id="svm1en" occurs="8">verb subjunctive middle-voice 1st-person singular present-tense</item>
+        <item id="svm1eþ" occurs="1">verb subjunctive middle-voice 1st-person singular past-tense</item>
+        <item id="svm1fn" occurs="6">verb subjunctive middle-voice 1st-person plural present-tense</item>
+        <item id="svm1fþ" occurs="1">verb subjunctive middle-voice 1st-person plural past-tense</item>
+        <item id="svm2en" occurs="23">verb subjunctive middle-voice 2nd-person singular present-tense</item>
+        <item id="svm2fn" occurs="3">verb subjunctive middle-voice 2nd-person plural present-tense</item>
+        <item id="svm3en" occurs="170">verb subjunctive middle-voice 3rd-person singular present-tense</item>
+        <item id="svm3eþ" occurs="182">verb subjunctive middle-voice 3rd-person singular past-tense</item>
+        <item id="svm3fn" occurs="74">verb subjunctive middle-voice 3rd-person plural present-tense</item>
+        <item id="svm3fþ" occurs="86">verb subjunctive middle-voice 3rd-person plural past-tense</item>
+        <item id="sþghen" occurs="6536">verb past-participle active-voice neutral singular nominative</item>
+        <item id="sþgheo" occurs="18">verb past-participle active-voice neutral singular accusative</item>
+        <item id="sþghfn" occurs="446">verb past-participle active-voice neutral plural nominative</item>
+        <item id="sþghfo" occurs="9">verb past-participle active-voice neutral plural accusative</item>
+        <item id="sþgken" occurs="4137">verb past-participle active-voice masculine singular nominative</item>
+        <item id="sþgkeo" occurs="9">verb past-participle active-voice masculine singular accusative</item>
+        <item id="sþgkfn" occurs="1534">verb past-participle active-voice masculine plural nominative</item>
+        <item id="sþgkfo" occurs="7">verb past-participle active-voice masculine plural accusative</item>
+        <item id="sþgven" occurs="1039">verb past-participle active-voice feminie singular nominative</item>
+        <item id="sþgveo" occurs="9">verb past-participle active-voice feminie singular accusative</item>
+        <item id="sþgvfn" occurs="185">verb past-participle active-voice feminie plural nominative</item>
+        <item id="sþmhen" occurs="91">verb past-participle middle-voice neutral singular nominative</item>
+        <item id="sþmven" occurs="4">verb past-participle middle-voice feminie singular nominative</item>
+        <item id="ta" occurs="84">numeral indeclinable-numeral</item>
+        <item id="tfhee" occurs="9">numeral cardinal neutral singular genetive beygjanlegt-töluorð</item>
+        <item id="tfhen" occurs="100">numeral cardinal neutral singular nominative beygjanlegt-töluorð</item>
+        <item id="tfheo" occurs="194">numeral cardinal neutral singular accusative beygjanlegt-töluorð</item>
+        <item id="tfheþ" occurs="85">numeral cardinal neutral singular dative beygjanlegt-töluorð</item>
+        <item id="tfhfe" occurs="87">numeral cardinal neutral plural genetive beygjanlegt-töluorð</item>
+        <item id="tfhfn" occurs="370">numeral cardinal neutral plural nominative beygjanlegt-töluorð</item>
+        <item id="tfhfo" occurs="530">numeral cardinal neutral plural accusative beygjanlegt-töluorð</item>
+        <item id="tfhfþ" occurs="93">numeral cardinal neutral plural dative beygjanlegt-töluorð</item>
+        <item id="tfkee" occurs="18">numeral cardinal masculine singular genetive beygjanlegt-töluorð</item>
+        <item id="tfken" occurs="408">numeral cardinal masculine singular nominative beygjanlegt-töluorð</item>
+        <item id="tfkeo" occurs="419">numeral cardinal masculine singular accusative beygjanlegt-töluorð</item>
+        <item id="tfkeþ" occurs="196">numeral cardinal masculine singular dative beygjanlegt-töluorð</item>
+        <item id="tfkfe" occurs="442">numeral cardinal masculine plural genetive beygjanlegt-töluorð</item>
+        <item id="tfkfn" occurs="1716">numeral cardinal masculine plural nominative beygjanlegt-töluorð</item>
+        <item id="tfkfo" occurs="1430">numeral cardinal masculine plural accusative beygjanlegt-töluorð</item>
+        <item id="tfkfþ" occurs="253">numeral cardinal masculine plural dative beygjanlegt-töluorð</item>
+        <item id="tfvee" occurs="14">numeral cardinal feminie singular genetive beygjanlegt-töluorð</item>
+        <item id="tfven" occurs="80">numeral cardinal feminie singular nominative beygjanlegt-töluorð</item>
+        <item id="tfveo" occurs="171">numeral cardinal feminie singular accusative beygjanlegt-töluorð</item>
+        <item id="tfveþ" occurs="85">numeral cardinal feminie singular dative beygjanlegt-töluorð</item>
+        <item id="tfvfe" occurs="67">numeral cardinal feminie plural genetive beygjanlegt-töluorð</item>
+        <item id="tfvfn" occurs="145">numeral cardinal feminie plural nominative beygjanlegt-töluorð</item>
+        <item id="tfvfo" occurs="346">numeral cardinal feminie plural accusative beygjanlegt-töluorð</item>
+        <item id="tfvfþ" occurs="170">numeral cardinal feminie plural dative beygjanlegt-töluorð</item>
+        <item id="to" occurs="15">numeral number-before-100-and-1000</item>
+        <item id="x" occurs="558">unspecified</item>
+       </list>
+      </p>
+      <p>
+       <list type="Texts">
+        <item id="F1E">
+         <item type="title">Heimskringla</item>
+         <item corpusPercentage="15.02%" type="tokens">253476</item>
+         <item corpusPercentage="15.32%" type="words">231502</item>
+         <item corpusPercentage="12.50%" type="punctuation marks">21974</item>
+        </item>
+        <item id="F01">
+         <item type="title">Bandamanna saga - Konungsbók</item>
+         <item corpusPercentage="0.65%" type="tokens">10913</item>
+         <item corpusPercentage="0.62%" type="words">9384</item>
+         <item corpusPercentage="0.87%" type="punctuation marks">1529</item>
+        </item>
+        <item id="F02">
+         <item type="title">Bárðar saga Snæfellsáss</item>
+         <item corpusPercentage="0.86%" type="tokens">14573</item>
+         <item corpusPercentage="0.87%" type="words">13150</item>
+         <item corpusPercentage="0.81%" type="punctuation marks">1423</item>
+        </item>
+        <item id="F03">
+         <item type="title">Bjarnar saga Hítdælakappa</item>
+         <item corpusPercentage="1.26%" type="tokens">21335</item>
+         <item corpusPercentage="1.28%" type="words">19285</item>
+         <item corpusPercentage="1.17%" type="punctuation marks">2050</item>
+        </item>
+        <item id="F04">
+         <item type="title">Brennu-Njáls saga</item>
+         <item corpusPercentage="6.77%" type="tokens">114148</item>
+         <item corpusPercentage="6.55%" type="words">98938</item>
+         <item corpusPercentage="8.65%" type="punctuation marks">15210</item>
+        </item>
+        <item id="F05">
+         <item type="title">Droplaugarsona saga</item>
+         <item corpusPercentage="0.63%" type="tokens">10572</item>
+         <item corpusPercentage="0.62%" type="words">9410</item>
+         <item corpusPercentage="0.66%" type="punctuation marks">1162</item>
+        </item>
+        <item id="F06">
+         <item type="title">Egils saga Skalla-Grímssonar</item>
+         <item corpusPercentage="4.06%" type="tokens">68517</item>
+         <item corpusPercentage="4.12%" type="words">62240</item>
+         <item corpusPercentage="3.57%" type="punctuation marks">6277</item>
+        </item>
+        <item id="F07">
+         <item type="title">Eiríks saga rauða</item>
+         <item corpusPercentage="0.51%" type="tokens">8616</item>
+         <item corpusPercentage="0.52%" type="words">7824</item>
+         <item corpusPercentage="0.45%" type="punctuation marks">792</item>
+        </item>
+        <item id="F08">
+         <item type="title">Eyrbyggja saga</item>
+         <item corpusPercentage="2.51%" type="tokens">42318</item>
+         <item corpusPercentage="2.54%" type="words">38388</item>
+         <item corpusPercentage="2.24%" type="punctuation marks">3930</item>
+        </item>
+        <item id="F09">
+         <item type="title">Finnboga saga ramma</item>
+         <item corpusPercentage="1.57%" type="tokens">26515</item>
+         <item corpusPercentage="1.57%" type="words">23702</item>
+         <item corpusPercentage="1.60%" type="punctuation marks">2813</item>
+        </item>
+        <item id="F0A">
+         <item type="title">Fljótsdæla saga</item>
+         <item corpusPercentage="1.80%" type="tokens">30405</item>
+         <item corpusPercentage="1.80%" type="words">27278</item>
+         <item corpusPercentage="1.78%" type="punctuation marks">3127</item>
+        </item>
+        <item id="F0B">
+         <item type="title">Flóamanna saga</item>
+         <item corpusPercentage="1.50%" type="tokens">25231</item>
+         <item corpusPercentage="1.48%" type="words">22418</item>
+         <item corpusPercentage="1.60%" type="punctuation marks">2813</item>
+        </item>
+        <item id="F0C">
+         <item type="title">Fóstbræðra saga</item>
+         <item corpusPercentage="2.11%" type="tokens">35644</item>
+         <item corpusPercentage="2.09%" type="words">31546</item>
+         <item corpusPercentage="2.33%" type="punctuation marks">4098</item>
+        </item>
+        <item id="F0E">
+         <item type="title">Gísla saga Súrssonar - lengri gerð</item>
+         <item corpusPercentage="1.55%" type="tokens">26196</item>
+         <item corpusPercentage="1.55%" type="words">23429</item>
+         <item corpusPercentage="1.57%" type="punctuation marks">2767</item>
+        </item>
+        <item id="F0D">
+         <item type="title">Gísla saga Súrssonar - styttri gerð</item>
+         <item corpusPercentage="1.25%" type="tokens">21154</item>
+         <item corpusPercentage="1.26%" type="words">18981</item>
+         <item corpusPercentage="1.24%" type="punctuation marks">2173</item>
+        </item>
+        <item id="F0F">
+         <item type="title">Grettis saga Ásmundarsonar</item>
+         <item corpusPercentage="4.05%" type="tokens">68362</item>
+         <item corpusPercentage="4.05%" type="words">61205</item>
+         <item corpusPercentage="4.07%" type="punctuation marks">7157</item>
+        </item>
+        <item id="F0K">
+         <item type="title">Gunnlaugs saga ormstungu</item>
+         <item corpusPercentage="0.66%" type="tokens">11058</item>
+         <item corpusPercentage="0.63%" type="words">9596</item>
+         <item corpusPercentage="0.83%" type="punctuation marks">1462</item>
+        </item>
+        <item id="F0G">
+         <item type="title">Grænlendinga saga</item>
+         <item corpusPercentage="0.40%" type="tokens">6678</item>
+         <item corpusPercentage="0.40%" type="words">6036</item>
+         <item corpusPercentage="0.37%" type="punctuation marks">642</item>
+        </item>
+        <item id="F0H">
+         <item type="title">Grænlendinga þáttur</item>
+         <item corpusPercentage="0.28%" type="tokens">4725</item>
+         <item corpusPercentage="0.28%" type="words">4243</item>
+         <item corpusPercentage="0.27%" type="punctuation marks">482</item>
+        </item>
+        <item id="F0I">
+         <item type="title">Gull-Þóris saga</item>
+         <item corpusPercentage="0.72%" type="tokens">12102</item>
+         <item corpusPercentage="0.73%" type="words">11080</item>
+         <item corpusPercentage="0.58%" type="punctuation marks">1022</item>
+        </item>
+        <item id="F0J">
+         <item type="title">Gunnars saga Keldugnúpsfífls</item>
+         <item corpusPercentage="0.69%" type="tokens">11599</item>
+         <item corpusPercentage="0.68%" type="words">10219</item>
+         <item corpusPercentage="0.78%" type="punctuation marks">1380</item>
+        </item>
+        <item id="F0L">
+         <item type="title">Hallfreðar saga (eftir Möðruvallabók)</item>
+         <item corpusPercentage="0.66%" type="tokens">11147</item>
+         <item corpusPercentage="0.64%" type="words">9694</item>
+         <item corpusPercentage="0.83%" type="punctuation marks">1453</item>
+        </item>
+        <item id="F0M">
+         <item type="title">Hallfreðar saga (úr Ólafs sögu Tryggvasonar hinni mestu)</item>
+         <item corpusPercentage="0.78%" type="tokens">13099</item>
+         <item corpusPercentage="0.77%" type="words">11573</item>
+         <item corpusPercentage="0.87%" type="punctuation marks">1526</item>
+        </item>
+        <item id="F0N">
+         <item type="title">Harðar saga og Hólmverja</item>
+         <item corpusPercentage="1.31%" type="tokens">22159</item>
+         <item corpusPercentage="1.31%" type="words">19850</item>
+         <item corpusPercentage="1.31%" type="punctuation marks">2309</item>
+        </item>
+        <item id="F0O">
+         <item type="title">Hávarðar saga Ísfirðings </item>
+         <item corpusPercentage="1.03%" type="tokens">17340</item>
+         <item corpusPercentage="1.02%" type="words">15402</item>
+         <item corpusPercentage="1.10%" type="punctuation marks">1938</item>
+        </item>
+        <item id="F0P">
+         <item type="title">Heiðarvíga saga</item>
+         <item corpusPercentage="0.86%" type="tokens">14546</item>
+         <item corpusPercentage="0.86%" type="words">12941</item>
+         <item corpusPercentage="0.91%" type="punctuation marks">1605</item>
+        </item>
+        <item id="F0Q">
+         <item type="title">Hrafnkels saga Freysgoða</item>
+         <item corpusPercentage="0.63%" type="tokens">10675</item>
+         <item corpusPercentage="0.64%" type="words">9612</item>
+         <item corpusPercentage="0.60%" type="punctuation marks">1063</item>
+        </item>
+        <item id="F0R">
+         <item type="title">Hænsna-Þóris saga </item>
+         <item corpusPercentage="0.59%" type="tokens">10001</item>
+         <item corpusPercentage="0.58%" type="words">8698</item>
+         <item corpusPercentage="0.74%" type="punctuation marks">1303</item>
+        </item>
+        <item id="F1D">
+         <item type="title">Íslendinga þættir</item>
+         <item corpusPercentage="7.39%" type="tokens">124671</item>
+         <item corpusPercentage="7.32%" type="words">110609</item>
+         <item corpusPercentage="8.00%" type="punctuation marks">14062</item>
+        </item>
+        <item id="F0T">
+         <item type="title">Jökuls þáttur Búasonar</item>
+         <item corpusPercentage="0.23%" type="tokens">3946</item>
+         <item corpusPercentage="0.23%" type="words">3442</item>
+         <item corpusPercentage="0.29%" type="punctuation marks">504</item>
+        </item>
+        <item id="F0S">
+         <item type="title">Kjalnesinga saga</item>
+         <item corpusPercentage="0.74%" type="tokens">12509</item>
+         <item corpusPercentage="0.73%" type="words">11003</item>
+         <item corpusPercentage="0.86%" type="punctuation marks">1506</item>
+        </item>
+        <item id="F0U">
+         <item type="title">Kormáks saga</item>
+         <item corpusPercentage="0.70%" type="tokens">11864</item>
+         <item corpusPercentage="0.68%" type="words">10303</item>
+         <item corpusPercentage="0.89%" type="punctuation marks">1561</item>
+        </item>
+        <item id="F0V">
+         <item type="title">Króka-Refs saga</item>
+         <item corpusPercentage="0.74%" type="tokens">12526</item>
+         <item corpusPercentage="0.73%" type="words">11084</item>
+         <item corpusPercentage="0.82%" type="punctuation marks">1442</item>
+        </item>
+        <item id="F0X">
+         <item type="title">Laxdæla saga</item>
+         <item corpusPercentage="3.79%" type="tokens">63889</item>
+         <item corpusPercentage="3.80%" type="words">57467</item>
+         <item corpusPercentage="3.65%" type="punctuation marks">6422</item>
+        </item>
+        <item id="F11">
+         <item type="title">Ljósvetninga saga - A-gerð</item>
+         <item corpusPercentage="0.51%" type="tokens">8646</item>
+         <item corpusPercentage="0.50%" type="words">7490</item>
+         <item corpusPercentage="0.66%" type="punctuation marks">1156</item>
+        </item>
+        <item id="F0Y">
+         <item type="title">Ljósvetninga saga - C-gerð </item>
+         <item corpusPercentage="1.89%" type="tokens">31812</item>
+         <item corpusPercentage="1.82%" type="words">27557</item>
+         <item corpusPercentage="2.42%" type="punctuation marks">4255</item>
+        </item>
+        <item id="F12">
+         <item type="title">Reykdæla saga</item>
+         <item corpusPercentage="1.51%" type="tokens">25420</item>
+         <item corpusPercentage="1.57%" type="words">23678</item>
+         <item corpusPercentage="0.99%" type="punctuation marks">1742</item>
+        </item>
+        <item id="F13">
+         <item type="title">Svarfdæla saga</item>
+         <item corpusPercentage="1.29%" type="tokens">21808</item>
+         <item corpusPercentage="1.27%" type="words">19193</item>
+         <item corpusPercentage="1.49%" type="punctuation marks">2615</item>
+        </item>
+        <item id="F14">
+         <item type="title">Valla-Ljóts saga</item>
+         <item corpusPercentage="0.47%" type="tokens">7995</item>
+         <item corpusPercentage="0.46%" type="words">6921</item>
+         <item corpusPercentage="0.61%" type="punctuation marks">1074</item>
+        </item>
+        <item id="F15">
+         <item type="title">Vatnsdæla saga </item>
+         <item corpusPercentage="1.93%" type="tokens">32623</item>
+         <item corpusPercentage="1.94%" type="words">29289</item>
+         <item corpusPercentage="1.90%" type="punctuation marks">3334</item>
+        </item>
+        <item id="F16">
+         <item type="title">Víga-Glúms saga </item>
+         <item corpusPercentage="1.28%" type="tokens">21529</item>
+         <item corpusPercentage="1.26%" type="words">19117</item>
+         <item corpusPercentage="1.37%" type="punctuation marks">2412</item>
+        </item>
+        <item id="F17">
+         <item type="title">Víglundar saga</item>
+         <item corpusPercentage="0.78%" type="tokens">13133</item>
+         <item corpusPercentage="0.78%" type="words">11825</item>
+         <item corpusPercentage="0.74%" type="punctuation marks">1308</item>
+        </item>
+        <item id="F18">
+         <item type="title">Vopnfirðinga saga</item>
+         <item corpusPercentage="0.64%" type="tokens">10749</item>
+         <item corpusPercentage="0.63%" type="words">9571</item>
+         <item corpusPercentage="0.67%" type="punctuation marks">1178</item>
+        </item>
+        <item id="F1A">
+         <item type="title">Þorsteins saga hvíta</item>
+         <item corpusPercentage="0.23%" type="tokens">3903</item>
+         <item corpusPercentage="0.23%" type="words">3537</item>
+         <item corpusPercentage="0.21%" type="punctuation marks">366</item>
+        </item>
+        <item id="F1B">
+         <item type="title">Þorsteins saga Síðu-Hallssonar</item>
+         <item corpusPercentage="0.35%" type="tokens">5986</item>
+         <item corpusPercentage="0.36%" type="words">5396</item>
+         <item corpusPercentage="0.34%" type="punctuation marks">590</item>
+        </item>
+        <item id="F19">
+         <item type="title">Þórðar saga hreðu</item>
+         <item corpusPercentage="1.05%" type="tokens">17636</item>
+         <item corpusPercentage="1.03%" type="words">15547</item>
+         <item corpusPercentage="1.19%" type="punctuation marks">2089</item>
+        </item>
+        <item id="F1C">
+         <item type="title">Ölkofra saga</item>
+         <item corpusPercentage="0.19%" type="tokens">3249</item>
+         <item corpusPercentage="0.19%" type="words">2915</item>
+         <item corpusPercentage="0.19%" type="punctuation marks">334</item>
+        </item>
+        <item id="F1G">
+         <item type="title">Landnámabók - Sturlubók</item>
+         <item corpusPercentage="2.61%" type="tokens">43974</item>
+         <item corpusPercentage="2.46%" type="words">37120</item>
+         <item corpusPercentage="3.90%" type="punctuation marks">6854</item>
+        </item>
+        <item id="F1F">
+         <item type="title">Sturlunga</item>
+         <item corpusPercentage="16.96%" type="tokens">286121</item>
+         <item corpusPercentage="17.24%" type="words">260587</item>
+         <item corpusPercentage="14.52%" type="punctuation marks">25534</item>
+        </item>
+       </list>
+      </p>
+    </encodingDesc>
+  </teiHeader>
+</mimDoc>
