@@ -2,7 +2,7 @@
 
 * Saga Corpus
 
-* (Subset) of publicly avialable ADL texts
+* (Subset) of publicly available ADL texts
 
 # Workflow
 
@@ -18,8 +18,8 @@
 
 OR
 
-try running it in Binder:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NKCZ/atds2022stylo/main?labpath=Workflow_Jupyter.ipynb)
+* try running it in Binder (online, no installation, but it takes some time to load):
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NKCZ/atds2022stylo/main?labpath=Workflow_Jupyter.ipynb) 
 
 # Stylometry
 
