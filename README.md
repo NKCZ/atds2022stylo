@@ -16,6 +16,11 @@
     -   run in your R-Enviroment: `install.packages("stylo")`
     -   <https://cran.r-project.org/web/packages/stylo/index.html>
 
+OR
+
+try running it in Binder:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NKCZ/atds2022stylo/main?labpath=Workflow_Jupyter.ipynb)
+
 # Stylometry
 
 * Plots: <https://nkcz.github.io/content.html>
