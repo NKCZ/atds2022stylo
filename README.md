@@ -1,9 +1,13 @@
 # Corpora
 
-* Saga Corpus
+* Saga Corpus 
+    - <https://clarin.is/en/resources/sagacorpus/>
+    - <http://hdl.handle.net/20.500.12537/32>
+    - folders: corpus, corpus_txt, corpus_xml
 
 * (Subset) of publicly available ADL texts
-
+    - <https://github.com/kb-dk/public-adl-text-sources>
+    - folders: primary_set, secondary_set
 # Workflow
 
 * R: <https://www.r-project.org/>
