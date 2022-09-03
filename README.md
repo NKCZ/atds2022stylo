@@ -24,7 +24,8 @@ OR
 
 * try running it in Binder (online, no installation, but it takes some time to load):
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NKCZ/atds2022stylo/main?labpath=Workflow_Jupyter.ipynb) 
-read-only: [[nbviewer](https://nbviewer.org/github/NKCZ/atds2022stylo/blob/main/Workflow_Jupyter.ipynb)]
+
+* read-only: [[nbviewer](https://nbviewer.org/github/NKCZ/atds2022stylo/blob/main/Workflow_Jupyter.ipynb)]
 
 # Stylometry
 
