@@ -258,7 +258,7 @@ danish = stylo()
 
 #Multiclass Classification using Support Vector Machine
 setwd("..")
-svm = classify()
+svm = classify() #lunch GUI
 
 primary_c = load.corpus.and.parse(files = "all",
                                  corpus.dir = "primary_set",
