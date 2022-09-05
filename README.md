@@ -7,7 +7,7 @@
 
 * (Subset) of publicly available ADL texts
     - <https://github.com/kb-dk/public-adl-text-sources>
-    - folders: primary_set, secondary_set
+    - folders: corpus_danish, primary_set, secondary_set
 # Workflow
 
 * R: <https://www.r-project.org/>
